@@ -863,3 +863,123 @@ The platform should support:
 * Recovery procedures.
 * Appropriate customer notification processes.
 
+16. BlackGrid Visual Identity and User Experience
+
+16.1 Design Direction
+
+BlackGrid Cannabis OS will use a hybrid luxury enterprise interface with electric green and attention red accents.
+
+The visual identity should communicate:
+
+* Professionalism.
+* Innovation.
+* Technology.
+* Trust.
+* Efficiency.
+* Financial intelligence.
+
+16.2 Color Palette
+
+Primary colors:
+
+* Charcoal black.
+* Deep graphite.
+* Clean white.
+* Soft gray.
+
+Accent colors:
+
+Electric Green
+
+* Positive financial performance.
+* Profit growth.
+* Verified savings.
+* Successful operations.
+* Completed tasks.
+* Positive business opportunities.
+
+Attention Red
+
+* Critical alerts.
+* Urgent warnings.
+* Inventory discrepancies.
+* Compliance concerns requiring review.
+* Financial losses and declining margins.
+* Overdue tasks.
+* Security warnings.
+* Important notifications.
+* Actions requiring immediate attention.
+
+Red must be visually prominent enough to attract attention without overwhelming the interface.
+
+16.3 Alert Priority System
+
+BlackGrid will support three levels of alerts:
+
+* Critical: Red. Immediate attention or action required.
+* Warning: Amber or orange. Potential problems requiring review.
+* Informational: Neutral gray. Updates and general notifications.
+
+Critical alerts should be easy to identify from the main dashboard.
+
+16.4 Interface Style
+
+The platform will combine:
+
+* Dark navigation and sidebars.
+* Clean, light workspace areas.
+* Premium dashboard cards.
+* Modern data tables.
+* Clear charts and graphs.
+* Simple navigation.
+* Consistent typography.
+* Responsive layouts.
+
+16.5 Main Navigation
+
+Initial navigation:
+
+1. Overview.
+2. Intelligence.
+3. Inventory.
+4. Profit Leak Detector.
+5. Promotions.
+6. Vendors.
+7. Procurement.
+8. Compliance.
+9. Customer Experience.
+10. Automation.
+11. Settings.
+
+Navigation must respect user permissions and available business modules.
+
+16.6 Dashboard Experience
+
+The main dashboard should provide:
+
+* Business performance overview.
+* Sales and profitability metrics.
+* Inventory alerts.
+* Promotion performance.
+* Vendor opportunities.
+* Potential savings.
+* Important operational notifications.
+
+Critical information must stand out through red indicators, alert badges, warning icons, and clear notification placement.
+
+16.7 User Experience Principles
+
+* Make complex business information easy to understand.
+* Prioritize actionable insights over unnecessary charts.
+* Provide explanations for financial calculations.
+* Allow users to investigate underlying data.
+* Support desktop, tablet, and mobile devices.
+* Make important actions easy to find.
+* Maintain accessibility and readable contrast.
+* Never rely on color alone to communicate an alert or status.
+
+16.8 Brand Consistency
+
+All BlackGrid modules, future mobile experiences, kiosks, and smart locker interfaces should follow a consistent visual identity.
+
+BlackGrid should look and feel like one connected technology ecosystem.
