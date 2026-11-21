@@ -1343,3 +1343,131 @@ The owner dashboard should display:
 * Inventory investment by category.
 * Recommended purchasing reviews.
 * Inventory discrepancies requiring investigation.
+
+21. Vendor and Purchasing Intelligence
+
+21.1 Purpose
+
+BlackGrid Vendor and Purchasing Intelligence will help dispensaries compare suppliers, evaluate vendor offers, monitor purchasing costs, and make informed procurement decisions.
+
+The objective is to reduce purchasing costs, improve supplier relationships, and increase business profitability.
+
+21.2 Vendor Management
+
+Maintain vendor profiles containing:
+
+* Vendor name and contact information.
+* Products and brands supplied.
+* Available product categories.
+* Historical purchase prices.
+* Order history.
+* Delivery lead times.
+* Minimum order requirements.
+* Vendor promotions and special offers.
+* Authorized business relationship information.
+
+21.3 Vendor Price Intelligence
+
+Compare recorded acquisition costs for equivalent products across authorized vendors.
+
+Identify:
+
+* Products available at lower prices from alternative vendors.
+* Vendors with increasing prices.
+* Historical price changes.
+* Unusual price differences.
+* Potential purchasing savings.
+* Vendor offers that may improve gross margins.
+
+Comparisons must account for product size, quantity, quality attributes, and other relevant differences. BlackGrid must not treat non-equivalent products as identical.
+
+21.4 Purchasing Recommendations
+
+Combine inventory forecasts, product profitability, and vendor pricing to recommend purchasing decisions.
+
+Recommendations should consider:
+
+* Current inventory.
+* Sales velocity.
+* Forecasted demand.
+* Available vendor pricing.
+* Supplier lead times.
+* Minimum order quantities.
+* Available purchasing budget.
+* Product profitability.
+* Existing purchase orders.
+
+21.5 Automated Purchase Order Preparation
+
+BlackGrid should be able to prepare draft purchase orders using approved purchasing recommendations.
+
+Draft orders should include:
+
+* Vendor information.
+* Recommended products.
+* Quantities.
+* Unit costs.
+* Estimated order totals.
+* Available promotions.
+* Expected inventory impact.
+
+An authorized employee must review and approve orders before submission.
+
+21.6 Vendor Deal Intelligence
+
+Track vendor-provided offers, including:
+
+* Volume discounts.
+* Bulk purchasing offers.
+* Temporary price reductions.
+* Product bundles.
+* Promotional incentives.
+* Special purchasing arrangements.
+
+Evaluate whether an offer creates genuine financial value after considering inventory demand, product profitability, and purchasing requirements.
+
+21.7 Purchasing Performance
+
+Provide reports showing:
+
+* Total purchasing spend.
+* Spending by vendor.
+* Average acquisition cost.
+* Price changes over time.
+* Estimated savings from alternative offers.
+* Purchasing trends.
+* Vendor order history.
+* Purchase order performance.
+
+21.8 Two-Sided Vendor Opportunities
+
+Design the architecture to eventually support a supplier-facing portal where authorized vendors can:
+
+* Submit product offers.
+* Share available promotions.
+* Update approved product pricing.
+* Communicate purchasing opportunities.
+* Review their own authorized business performance information.
+
+Dispensary financial information and purchasing data must remain private unless explicitly authorized for sharing.
+
+21.9 Financial Impact Measurement
+
+For every purchasing recommendation, show:
+
+* Current recorded cost.
+* Alternative available cost.
+* Quantity being evaluated.
+* Potential savings.
+* Expected impact on gross margin.
+* Assumptions and limitations.
+
+Clearly distinguish potential savings from savings actually achieved.
+
+21.10 Security and Approval
+
+Only authorized users may access vendor information, purchasing recommendations, and purchase orders.
+
+BlackGrid must maintain an audit history of purchasing decisions, approvals, changes, and submissions.
+
+The platform must not independently execute purchases or regulated cannabis transfers without authorized human approval and appropriate integrations.
