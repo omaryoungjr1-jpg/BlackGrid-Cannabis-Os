@@ -1220,3 +1220,126 @@ Every insight must allow the owner to investigate the underlying product and tra
 Product profitability calculations must account for discounts, returns, product costs, and reporting periods without double counting.
 
 If product costs are missing, outdated, or estimated, the system must clearly identify the limitation rather than displaying an unsupported profit figure.
+
+20. Inventory Intelligence
+
+20.1 Purpose
+
+BlackGrid Inventory Intelligence will help dispensary owners understand inventory movement, product availability, inventory investment, and purchasing risks.
+
+The goal is to reduce unnecessary inventory spending, prevent avoidable stockouts, and improve inventory efficiency.
+
+20.2 Inventory Monitoring
+
+For each product, BlackGrid should monitor:
+
+* Current available quantity.
+* Units sold over time.
+* Units received.
+* Inventory adjustments.
+* Inventory aging.
+* Average daily sales.
+* Sales velocity.
+* Recorded unit acquisition cost.
+* Total inventory value.
+* Last sale date.
+* Last restock date.
+
+20.3 Slow-Moving Inventory Detection
+
+Identify products that:
+
+* Have experienced declining sales.
+* Have remained in inventory for extended periods.
+* Have unusually low sales velocity.
+* Have significant inventory value relative to demand.
+* May require purchasing or promotional review.
+
+Allow owners to filter by product, category, brand, location, and reporting period.
+
+20.4 Overstock Detection
+
+Identify products where available inventory significantly exceeds expected demand.
+
+Show:
+
+* Current stock quantity.
+* Average daily sales.
+* Estimated days of inventory remaining.
+* Estimated inventory value.
+* Recommended purchasing review.
+* Potential capital tied up in excess inventory.
+
+20.5 Stockout Risk Detection
+
+Identify products that may run out before the next expected replenishment.
+
+Consider:
+
+* Current available inventory.
+* Historical sales velocity.
+* Recent demand changes.
+* Supplier lead times when available.
+* Pending purchase orders.
+* Minimum stock thresholds.
+
+Clearly distinguish predicted stockout risks from confirmed inventory shortages.
+
+20.6 Inventory Forecasting
+
+Provide configurable demand forecasts using historical sales and inventory movement.
+
+Forecasts should:
+
+* Identify expected demand.
+* Estimate future inventory requirements.
+* Highlight seasonal or unusual sales patterns when supported by data.
+* Show confidence levels and data limitations.
+* Avoid presenting predictions as guaranteed outcomes.
+
+20.7 Inventory Financial Intelligence
+
+Connect inventory information to Financial Intelligence and Product Profitability.
+
+Show:
+
+* Total recorded inventory investment.
+* Inventory value by category and brand.
+* Capital tied up in slow-moving products.
+* Potential losses from declining product demand.
+* Products with strong profitability and low stock.
+* Products with weak profitability and excessive stock.
+
+20.8 Recommended Inventory Actions
+
+BlackGrid may recommend:
+
+* Reviewing future purchase quantities.
+* Reviewing supplier alternatives.
+* Evaluating promotional opportunities.
+* Investigating inventory discrepancies.
+* Reviewing products approaching expiration or other applicable inventory deadlines.
+* Prioritizing replenishment of products with strong demand.
+
+Recommendations must be supported by recorded data.
+
+20.9 Human Approval and Compliance
+
+BlackGrid must not independently adjust regulated inventory records, transfer cannabis products, or execute regulated inventory transactions.
+
+Any regulated inventory action must follow applicable state requirements and authorized system workflows.
+
+Inventory recommendations and forecasts are decision-support tools, not replacements for required state tracking systems or licensee responsibilities.
+
+20.10 Owner Dashboard Integration
+
+The owner dashboard should display:
+
+* Products running low.
+* Products at risk of stockout.
+* Slow-moving inventory.
+* Overstock opportunities.
+* Total inventory value.
+* Inventory investment by category.
+* Recommended purchasing reviews.
+* Inventory discrepancies requiring investigation.
