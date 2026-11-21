@@ -983,3 +983,89 @@ Critical information must stand out through red indicators, alert badges, warnin
 All BlackGrid modules, future mobile experiences, kiosks, and smart locker interfaces should follow a consistent visual identity.
 
 BlackGrid should look and feel like one connected technology ecosystem.
+
+17. Role-Based Dashboard Experience
+
+BlackGrid will provide customized dashboards based on each user’s organization, role, and assigned permissions.
+
+17.1 Owner Dashboard
+
+The owner dashboard will prioritize business performance and financial intelligence.
+
+Features:
+
+* Daily, weekly, and monthly sales.
+* Gross profit and profit margins.
+* Revenue trends.
+* Product profitability.
+* Profit Leak Detector alerts.
+* Vendor savings opportunities.
+* Promotion performance.
+* Multi-location comparisons.
+* Business health overview.
+* Critical business notifications.
+
+17.2 Manager Dashboard
+
+The manager dashboard will prioritize daily dispensary operations.
+
+Features:
+
+* Inventory alerts.
+* Products requiring attention.
+* Daily operational tasks.
+* Order preparation status.
+* Purchasing recommendations.
+* Promotion activity.
+* Operational discrepancies.
+* Employee task assignments.
+* Important notifications.
+
+17.3 Employee Dashboard
+
+The employee dashboard will prioritize assigned responsibilities.
+
+Features:
+
+* Assigned tasks.
+* Restocking notifications.
+* Order preparation workflows.
+* Customer service tasks.
+* Relevant operational alerts.
+
+Employees must only access information and actions authorized for their role.
+
+17.4 Administrator Dashboard
+
+Administrators will have access to authorized system management tools.
+
+Features:
+
+* User management.
+* Role and permission management.
+* Location configuration.
+* Integration status.
+* Synchronization monitoring.
+* Audit history.
+* System settings.
+
+17.5 Multi-Location Owner Experience
+
+Owners authorized to manage multiple locations will be able to:
+
+* View consolidated business performance.
+* Compare individual locations.
+* Identify differences in product performance.
+* Compare inventory levels.
+* Review location-specific alerts.
+* Identify opportunities across their organization.
+
+17.6 Dashboard Security
+
+* Dashboard views must respect role-based permissions.
+* Users must not access unauthorized financial information.
+* Organization and location boundaries must be enforced.
+* Dashboard data must reflect authorized source information.
+* Users must not be able to bypass permissions by changing URLs or frontend settings.
+
+The objective is to give every user the information they need to perform their job without exposing information they do not need.
