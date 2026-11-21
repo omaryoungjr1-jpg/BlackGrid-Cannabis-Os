@@ -3033,3 +3033,146 @@ The initial MVP should include:
 - Basic error logging
 
 Production integrations should be introduced only after provider authorization, security review, and validation.
+
+## 34. Security, Privacy, and Access Control
+
+### 34.1 Security Objectives
+
+Security must be built into BlackGrid Cannabis OS from the beginning.
+
+The platform must protect customer information, business records, user accounts, and system infrastructure against unauthorized access, accidental disclosure, and misuse.
+
+### 34.2 Authentication
+
+The platform should support:
+
+- Secure account registration
+- Verified email addresses
+- Secure login procedures
+- Strong password requirements
+- Password recovery
+- Session management
+- Automatic session expiration
+- Optional multi-factor authentication
+
+### 34.3 Role-Based Access Control
+
+The system must enforce permissions based on user roles and assigned responsibilities.
+
+Supported roles include:
+
+- Owner
+- Manager
+- Employee
+- Administrator
+
+Permissions should also be configurable at the organization and location levels.
+
+Users must only access information and functions they are authorized to use.
+
+### 34.4 Organization Data Isolation
+
+Each customer organization must have isolated data access.
+
+The system must prevent users from accessing another organization's:
+
+- Financial information
+- Product records
+- Inventory records
+- Vendor information
+- Reports
+- User accounts
+- Integration credentials
+- Audit records
+
+Data isolation must be enforced by backend authorization and database policies, not merely by hiding interface elements.
+
+### 34.5 Data Protection
+
+The platform should implement:
+
+- Encryption in transit
+- Encryption at rest
+- Secure credential storage
+- Restricted access to sensitive information
+- Secure handling of API credentials
+- Appropriate backup protection
+- Secure data deletion procedures
+
+### 34.6 Administrative Security
+
+Administrative capabilities should be restricted to authorized personnel.
+
+Sensitive administrative actions should require appropriate permissions and generate audit records.
+
+### 34.7 Audit Logging
+
+The platform should record important security and administrative events, including:
+
+- Successful and failed login attempts
+- Permission changes
+- User invitations and deactivation
+- Organization configuration changes
+- Integration configuration changes
+- Sensitive data exports
+- Administrative actions
+
+Audit records should include timestamps and relevant actor information.
+
+### 34.8 Privacy and Data Governance
+
+BlackGrid should collect only information necessary to provide its services.
+
+The platform should establish clear policies for:
+
+- Data ownership
+- Data access
+- Data retention
+- Data exports
+- Account closure
+- Data deletion
+- Privacy requests
+- Third-party service providers
+
+Customer data must not be sold or shared for unrelated purposes without appropriate authorization and a valid legal basis.
+
+### 34.9 Security Monitoring
+
+The platform should support monitoring for:
+
+- Unusual account activity
+- Repeated authentication failures
+- Unexpected permission changes
+- Suspicious access patterns
+- Integration credential problems
+- Potential data exposure
+- System security events
+
+Security alerts should be routed to authorized personnel.
+
+### 34.10 Incident Response
+
+BlackGrid should maintain a documented process for:
+
+- Identifying security incidents
+- Assessing potential impact
+- Containing affected systems
+- Preserving relevant records
+- Correcting vulnerabilities
+- Communicating with affected customers when required
+- Reviewing incidents to prevent recurrence
+
+### 34.11 MVP Security Requirements
+
+The initial MVP must include:
+
+- Secure authentication
+- Role-based permissions
+- Organization-level data isolation
+- Protected backend access
+- Secure environment-variable handling
+- Basic audit logging
+- Secure session handling
+- Validation of user permissions
+
+Security testing must occur before any production customer data is introduced.
