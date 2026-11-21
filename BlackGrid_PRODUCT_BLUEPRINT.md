@@ -2192,3 +2192,145 @@ Provide organizational owners with:
 * Organization-wide operational reporting.
 
 The experience must remain useful for both a single-location independent dispensary and a large multi-location operator.
+
+27. Minimum Viable Product (MVP) Definition
+
+27.1 Purpose
+
+The BlackGrid Cannabis OS MVP will establish the first functional version of the platform.
+
+The objective is to deliver a useful business intelligence system that helps dispensary owners understand sales performance, product profitability, inventory conditions, and promotional effectiveness.
+
+The MVP must prioritize accuracy, usability, security, and measurable business value over the number of features.
+
+27.2 Initial Target Customers
+
+The initial MVP will target:
+
+* Independent licensed cannabis dispensaries.
+* Small and medium-sized dispensary operators.
+* Multi-location operators interested in centralized business intelligence.
+
+Michigan will be the initial target market, while the architecture will remain adaptable to additional states.
+
+27.3 Core MVP Modules
+
+The initial release will prioritize:
+
+1. Owner Dashboard: Centralized business performance overview.
+2. Sales Intelligence: Sales trends, product performance, and revenue reporting.
+3. Product Profitability: Product-level gross profit and margin analysis.
+4. Inventory Guardian: Inventory levels, sales velocity, slow-moving products, and stockout warnings.
+5. Promotions Intelligence: Discount analysis and promotional performance.
+6. Vendor Intelligence: Basic vendor and acquisition-cost comparisons.
+7. Compliance Monitoring: Read-only operational alerts and synchronization monitoring.
+8. Integrations Center: Connection management and data synchronization status.
+
+27.4 Initial Data Integration
+
+The platform must support a standardized POS integration architecture.
+
+The first development milestone will use a simulated POS connector with realistic sample data.
+
+The architecture must also support future authorized direct POS integrations and approved third-party integration providers.
+
+Production connections must require appropriate provider authorization, secure credentials, and validation.
+
+27.5 Initial Owner Experience
+
+The first owner dashboard must display:
+
+* Gross sales.
+* Net sales.
+* Gross profit.
+* Gross margin.
+* Discounts.
+* Inventory value.
+* Best-selling products.
+* Least profitable products.
+* Slow-moving inventory.
+* Potential savings opportunities.
+* Important operational alerts.
+
+All demonstration data must be clearly identified as fictional.
+
+27.6 Initial Manager Experience
+
+The MVP should provide a manager-oriented experience focused on:
+
+* Daily sales performance.
+* Inventory conditions.
+* Products requiring attention.
+* Promotion performance.
+* Purchasing recommendations.
+* Operational alerts.
+
+Access must be restricted according to assigned permissions.
+
+27.7 MVP Exclusions
+
+The initial release will not include:
+
+* Live cannabis transactions.
+* Payment processing.
+* Direct regulated inventory adjustments.
+* Automatic purchase order submission.
+* Production smart locker operations.
+* Automated customer identity verification.
+* Unapproved regulatory system integrations.
+* Nationwide regulatory automation.
+
+These capabilities will be evaluated for later development after the foundational platform is validated.
+
+27.8 Technical Development Priorities
+
+The MVP must establish:
+
+* Secure user authentication.
+* Organization and location management.
+* Role-based access control.
+* Database security and tenant isolation.
+* Reusable user interface components.
+* Financial calculation services.
+* POS connector architecture.
+* Data synchronization monitoring.
+* Audit logging.
+* Responsive desktop and mobile experiences.
+
+27.9 MVP Validation
+
+Before considering the MVP ready for a real customer pilot, validate:
+
+* Financial calculations against source records.
+* Product profitability calculations.
+* Inventory quantity accuracy.
+* Duplicate transaction prevention.
+* Data synchronization reliability.
+* User permissions.
+* Organization data isolation.
+* Alert accuracy.
+* Dashboard reporting.
+* Error handling.
+
+27.10 First Working Milestone
+
+The first working milestone will be a demonstration dispensary that can:
+
+1. Sign in securely.
+2. View a fictional dispensary workspace.
+3. Import sample products.
+4. Import simulated sales transactions.
+5. Calculate sales and gross profit.
+6. Identify best-selling and least profitable products.
+7. Display inventory conditions.
+8. Analyze promotional performance.
+9. Identify potential savings opportunities.
+10. View synchronization status and operational alerts.
+
+27.11 Product Development Philosophy
+
+Build the smallest reliable version that demonstrates meaningful business value.
+
+Prioritize measurable improvements in profitability, inventory efficiency, purchasing decisions, and employee productivity.
+
+Do not sacrifice data accuracy, security, or regulatory safeguards to accelerate development.
