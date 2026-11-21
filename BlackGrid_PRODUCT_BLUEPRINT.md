@@ -1471,3 +1471,144 @@ Only authorized users may access vendor information, purchasing recommendations,
 BlackGrid must maintain an audit history of purchasing decisions, approvals, changes, and submissions.
 
 The platform must not independently execute purchases or regulated cannabis transfers without authorized human approval and appropriate integrations.
+
+22. Promotions and Deal Intelligence
+
+22.1 Purpose
+
+BlackGrid Promotions Intelligence will evaluate vendor promotions, dispensary discounts, product deals, and promotional campaigns to determine their actual financial impact.
+
+The objective is to help dispensaries increase profitable sales, reduce unnecessary discounting, and identify promotions that benefit both the business and its customers.
+
+22.2 Promotion Management
+
+Track promotions with information such as:
+
+* Promotion name and description.
+* Participating products and brands.
+* Vendor or dispensary providing the promotion.
+* Start and end dates.
+* Discount type and amount.
+* Eligibility requirements.
+* Participating locations.
+* Applicable product categories.
+* Promotion limits and restrictions.
+
+22.3 Promotion Performance
+
+Measure:
+
+* Units sold during promotions.
+* Gross sales.
+* Discounts applied.
+* Net sales.
+* Cost of goods sold.
+* Gross profit.
+* Gross margin.
+* Average transaction value.
+* Redemption volume.
+* Performance compared with an appropriate baseline.
+
+22.4 Promotion Profitability Analysis
+
+Determine whether promotions are producing meaningful financial value.
+
+Identify:
+
+* Promotions generating profitable incremental sales.
+* Promotions increasing sales but reducing gross profit.
+* Products receiving excessive discounts.
+* Promotions with low customer participation.
+* Promotions that primarily discount purchases customers would have made anyway.
+* Promotions that help move slow-moving inventory.
+
+Do not automatically interpret increased sales volume as increased profitability.
+
+22.5 Vendor Promotion Intelligence
+
+Track vendor-provided offers and evaluate their potential value to dispensaries.
+
+Compare:
+
+* Regular acquisition cost.
+* Promotional acquisition cost.
+* Required purchase quantity.
+* Available inventory.
+* Expected demand.
+* Product profitability.
+* Potential savings.
+
+Identify offers that genuinely improve purchasing economics instead of encouraging unnecessary purchases.
+
+22.6 Customer Savings Intelligence
+
+Create a customer-facing experience that can eventually help customers discover:
+
+* Available product deals.
+* Eligible discounts.
+* Participating brands.
+* Product promotions.
+* Relevant savings opportunities.
+
+Only display promotions that are valid, authorized, and available at the selected licensed dispensary.
+
+All customer-facing features must follow applicable advertising, age-verification, privacy, and cannabis marketing requirements.
+
+22.7 Two-Sided Savings Intelligence
+
+BlackGrid should evaluate promotional value from two perspectives:
+
+Dispensary perspective:
+
+* Increased profitability.
+* Reduced discount waste.
+* Better inventory movement.
+* Improved vendor purchasing economics.
+* More effective promotional spending.
+
+Customer perspective:
+
+* Available discounts.
+* Eligible product deals.
+* Clear promotion requirements.
+* Accurate savings information.
+* Easier discovery of relevant offers.
+
+The platform must not expose private dispensary financial information to customers or vendors.
+
+22.8 Promotion Recommendations
+
+BlackGrid may recommend:
+
+* Adjusting discount amounts.
+* Changing promotion duration.
+* Targeting specific products.
+* Reviewing underperforming promotions.
+* Evaluating vendor-sponsored offers.
+* Avoiding discounts on products already selling strongly.
+* Testing alternative promotional strategies.
+
+Recommendations must include supporting data and estimated financial impact.
+
+22.9 Promotion Reporting
+
+Provide reports showing:
+
+* Best-performing promotions.
+* Least profitable promotions.
+* Total discount spending.
+* Estimated incremental gross profit.
+* Customer savings.
+* Vendor-sponsored savings.
+* Promotion redemption trends.
+* Performance by location, brand, and product category.
+
+Clearly distinguish estimated incremental results from confirmed financial results.
+
+22.10 Approval and Compliance
+
+Authorized employees must approve promotions before publication or activation.
+
+BlackGrid must not independently publish cannabis advertisements, change regulated pricing, or execute promotional transactions without appropriate authorization and applicable regulatory safeguards.
+
+Maintain an audit history of promotion creation, approval, changes, and performance.
