@@ -697,3 +697,83 @@ For suppliers:
 BlackGrid may eventually develop a business network connecting dispensaries and suppliers through authorized offers, product information, and purchasing opportunities.
 
 The network must create measurable value without compromising customer privacy or business confidentiality.
+
+14. Business Automation and Employee Efficiency
+
+BlackGrid will reduce repetitive administrative and operational work through intelligent automation.
+
+The objective is to allow dispensary employees to focus on customer service, product education, and tasks requiring human judgment.
+
+14.1 Inventory Automation
+
+* Generate low-stock alerts.
+* Identify potential stockouts.
+* Recommend reorder quantities.
+* Identify slow-moving inventory.
+* Prepare inventory review reports.
+
+14.2 Purchasing Automation
+
+* Compare vendor pricing.
+* Identify available deals.
+* Prepare suggested purchase orders.
+* Notify managers when approvals are required.
+* Track order status.
+
+Purchasing recommendations must remain subject to authorized human approval.
+
+14.3 Reporting Automation
+
+* Generate daily sales reports.
+* Generate weekly performance reports.
+* Summarize inventory changes.
+* Identify unusual business activity.
+* Deliver authorized management notifications.
+
+14.4 Customer Service Automation
+
+* Digital customer check-in.
+* Product catalog browsing.
+* Deal discovery.
+* Order preparation workflows.
+* Pickup notifications.
+* Self-service kiosk integration.
+
+All customer identity verification, purchasing, and pickup workflows must comply with applicable laws and approved system requirements.
+
+14.5 Employee Task Management
+
+BlackGrid should help employees understand:
+
+* What needs attention.
+* Which products need restocking.
+* Which orders need preparation.
+* Which alerts require review.
+* Which tasks are overdue.
+
+14.6 Human Oversight
+
+Automation must not independently perform regulated or financially significant actions without appropriate authorization.
+
+The platform must:
+
+* Require approval for designated actions.
+* Record automated recommendations.
+* Log user approvals and rejections.
+* Provide an explanation for important recommendations.
+* Allow authorized users to review automation history.
+
+14.7 Future Smart Locker Integration
+
+Smart pickup lockers will be a future BlackGrid hardware integration.
+
+The software must eventually support:
+
+* Authorized pickup verification.
+* Secure compartment assignment.
+* Pickup notifications.
+* Locker availability monitoring.
+* Pickup event records.
+* Exception handling.
+
+Hardware development will follow validation of the core software and customer demand.
