@@ -2770,3 +2770,131 @@ The initial MVP should include:
 - Integration error notifications using simulated data
 
 External email and advanced notification delivery can be introduced in later releases.
+
+## 32. Reporting and Business Analytics
+
+### 32.1 Reporting Objectives
+
+BlackGrid Cannabis OS should provide a centralized reporting system that helps authorized business users understand performance, identify trends, and evaluate business operations.
+
+Reports must use consistent calculation rules and clearly identify the source and reliability of their data.
+
+### 32.2 Standard Reports
+
+The platform should support:
+
+- Sales performance reports
+- Financial performance reports
+- Product profitability reports
+- Inventory performance reports
+- Promotion performance reports
+- Vendor comparison reports
+- Location performance reports
+- Integration and data quality reports
+- Compliance monitoring summaries
+
+### 32.3 Financial Reporting
+
+Financial reports should include relevant metrics such as:
+
+- Gross sales
+- Discounts
+- Returns
+- Net sales
+- Cost of goods sold
+- Gross profit
+- Gross margin
+- Inventory value
+
+Reports must follow the financial calculation rules defined in Section 18.
+
+Estimated values must be clearly distinguished from verified source data.
+
+### 32.4 Product and Inventory Reporting
+
+Users with appropriate permissions should be able to review:
+
+- Product sales trends
+- Product profitability
+- Inventory quantities
+- Inventory movement
+- Slow-moving inventory indicators
+- Stock availability indicators
+- Inventory valuation
+- Data discrepancies
+
+The system should identify missing or unreliable information rather than presenting unsupported calculations.
+
+### 32.5 Comparative Analytics
+
+The reporting system should support comparisons across:
+
+- Selected time periods
+- Business locations
+- Product categories
+- Individual products
+- Vendors
+- Organizations, where authorized
+
+Comparisons must use consistent date ranges and calculation methods.
+
+### 32.6 Custom Reporting
+
+Authorized users should eventually be able to:
+
+- Select reporting periods
+- Apply available filters
+- Choose supported metrics
+- Save report configurations
+- Reopen saved reports
+- Export permitted report data
+
+Access to sensitive information must follow organizational permissions.
+
+### 32.7 Visualizations
+
+Reports may include:
+
+- Trend charts
+- Bar charts
+- Performance comparisons
+- Distribution charts
+- Summary tables
+- Performance indicators
+
+Visualizations must clearly identify their metrics, time periods, units, and data sources.
+
+### 32.8 Scheduled Reporting
+
+Future versions may support scheduled reports delivered to authorized users through approved channels.
+
+Scheduling must respect account permissions, notification preferences, and data security requirements.
+
+### 32.9 Data Export
+
+The platform should support appropriate exports such as CSV and PDF.
+
+Exports must:
+
+- Respect user permissions
+- Include reporting dates
+- Identify the organization or location
+- Identify relevant calculation definitions
+- Protect confidential information
+- Avoid exposing data belonging to other organizations
+
+### 32.10 MVP Requirements
+
+The initial MVP should include:
+
+- Standard sales reports
+- Financial performance summaries
+- Product profitability reports
+- Inventory reports
+- Date-range filtering
+- Basic location filtering
+- Charts and tables
+- Clearly labeled fictional demo data
+- Basic CSV export using sample data
+
+Advanced custom reporting and scheduled delivery can be introduced in later releases.
