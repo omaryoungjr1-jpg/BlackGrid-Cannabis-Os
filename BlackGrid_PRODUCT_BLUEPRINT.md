@@ -2570,3 +2570,96 @@ The initial MVP should include:
 - An administrative plan-management interface
 
 Live recurring billing is not required for the first demonstration. Subscription plans may initially be represented using simulated account data.
+
+## 30. Customer Onboarding and Account Setup
+
+### 30.1 Onboarding Objectives
+
+BlackGrid Cannabis OS should provide a structured onboarding experience that helps authorized business customers configure their organization and understand the platform.
+
+The onboarding process should be simple, secure, and scalable.
+
+### 30.2 Organization Setup
+
+The system should support:
+
+- Organization name and business profile
+- Primary account owner
+- Authorized administrator accounts
+- Business location profiles
+- Organization preferences
+- Subscription plan assignment
+- Account status tracking
+
+### 30.3 User Invitations and Permissions
+
+Authorized account owners and administrators should be able to:
+
+- Invite additional users
+- Assign role-based permissions
+- Manage user access
+- Disable or deactivate accounts
+- Review account activity
+
+Invitations must use secure verification procedures. Users should only receive access appropriate to their assigned roles.
+
+### 30.4 Initial Platform Configuration
+
+The onboarding workflow should guide administrators through:
+
+- Organization configuration
+- Location setup
+- User and permission configuration
+- Dashboard preferences
+- Reporting preferences
+- Integration settings
+- Notification settings
+
+Configuration steps should clearly identify which items are required and which are optional.
+
+### 30.5 Demo and Sample Data
+
+New customers should be able to explore the platform using clearly labeled fictional sample data.
+
+Sample data must remain separate from actual business records and must never be represented as verified business information.
+
+### 30.6 Integration Readiness
+
+The onboarding process should introduce available integration options and explain the requirements for authorized connections.
+
+No external business system should be connected without appropriate authorization, credentials, and validation.
+
+### 30.7 Onboarding Progress
+
+The platform should display onboarding progress, including:
+
+- Completed setup steps
+- Incomplete setup steps
+- Required administrator actions
+- Configuration warnings
+- Integration readiness
+- Account activation status
+
+### 30.8 Security and Audit Requirements
+
+The onboarding system must:
+
+- Verify account ownership and authorized administrators
+- Enforce role-based permissions
+- Protect organization information
+- Maintain an audit history of important configuration changes
+- Prevent unauthorized access between organizations
+- Provide secure account recovery procedures
+
+### 30.9 MVP Requirements
+
+The initial MVP should include:
+
+- Organization profile setup
+- User and role configuration
+- Basic location configuration
+- Demo data access
+- Onboarding progress indicators
+- Basic account settings
+
+Advanced automated onboarding and live external integrations may be introduced in later releases.
