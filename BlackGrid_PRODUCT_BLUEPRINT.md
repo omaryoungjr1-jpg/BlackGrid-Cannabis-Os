@@ -1747,3 +1747,168 @@ Display:
 * Outstanding documentation tasks.
 
 Give owners a clear view of issues requiring attention without overwhelming them with routine system notifications.
+
+
+24. Customer Experience and Self-Service Intelligence
+
+24.1 Purpose
+
+BlackGrid Customer Experience will provide licensed dispensaries with customer-facing digital tools that simplify product discovery, promotion discovery, order preparation, check-in, and pickup workflows.
+
+The objective is to improve the customer experience while reducing repetitive employee tasks and improving operational efficiency.
+
+24.2 Digital Product Discovery
+
+Provide a customer-facing catalog that can display authorized product information, including:
+
+* Product names and descriptions.
+* Brands and categories.
+* Product availability.
+* Approved product images.
+* Current authorized pricing.
+* Applicable promotions.
+* Product specifications and attributes.
+
+Product information must synchronize with authorized business systems and reflect data freshness.
+
+24.3 Customer Deal Discovery
+
+Help customers identify legitimate available savings.
+
+Customers should be able to:
+
+* Browse active promotions.
+* Discover eligible product deals.
+* Compare applicable offers.
+* Review promotion requirements.
+* Understand potential savings.
+
+Only valid, authorized promotions should be displayed.
+
+24.4 Digital Check-In
+
+Design a digital check-in workflow that can reduce repetitive front-desk tasks.
+
+Potential capabilities include:
+
+* Customer arrival notification.
+* Secure identity verification through approved systems.
+* Appointment or order lookup.
+* Eligibility verification through authorized processes.
+* Queue status.
+* Employee notification.
+* Check-in completion history.
+
+The system must protect customer identity information and avoid storing unnecessary sensitive data.
+
+24.5 Order Preparation
+
+Allow customers to prepare orders through approved workflows before arriving or while at the dispensary.
+
+Potential capabilities include:
+
+* Product selection.
+* Availability checks.
+* Promotion eligibility.
+* Order review.
+* Order submission for employee review.
+* Order status notifications.
+* Employee preparation queues.
+
+Orders must remain subject to applicable laws, inventory availability, age and eligibility verification, and dispensary approval.
+
+24.6 Customer Self-Service Kiosks
+
+Design the software architecture to support future in-store kiosks.
+
+Potential kiosk functions include:
+
+* Customer check-in.
+* Product catalog browsing.
+* Promotion discovery.
+* Order lookup.
+* Digital order preparation.
+* Pickup status.
+* Employee assistance requests.
+
+Kiosks must provide accessible alternatives for customers who need employee assistance.
+
+24.7 Employee Efficiency
+
+Reduce repetitive tasks by allowing authorized automation to handle appropriate workflow steps.
+
+Examples include:
+
+* Customer arrival notifications.
+* Order status updates.
+* Pickup queue management.
+* Digital catalog updates.
+* Promotion information display.
+* Routine customer notifications.
+* Employee task routing.
+
+Employees must retain control over activities requiring human judgment, identity verification, approval, or regulated transactions.
+
+24.8 Customer Privacy and Security
+
+Protect customer information through:
+
+* Minimal data collection.
+* Secure identity verification.
+* Role-based access.
+* Encryption.
+* Configurable data retention.
+* Secure session handling.
+* Access logging.
+* Protection against unauthorized disclosure.
+
+Do not expose customer purchasing histories or personal information to unauthorized employees, vendors, or other dispensaries.
+
+24.9 Accessibility and Usability
+
+Customer-facing experiences should be simple, mobile-friendly, accessible, and easy to understand.
+
+Support customers who prefer traditional employee-assisted service.
+
+24.10 Future Pickup Integration
+
+Design for future integration with secure smart pickup lockers.
+
+Potential functionality includes:
+
+* Approved order completion notifications.
+* Secure pickup authorization.
+* One-time pickup codes or tokens.
+* Locker assignment.
+* Pickup status tracking.
+* Time-stamped access events.
+* Employee exception handling.
+
+Any locker-based cannabis handoff must follow applicable identity verification, age verification, security, custody, and regulatory requirements.
+
+24.11 Business Intelligence
+
+Measure operational performance without unnecessarily collecting personal customer information.
+
+Potential metrics include:
+
+* Average check-in time.
+* Average order preparation time.
+* Customer wait time.
+* Self-service utilization.
+* Employee task reduction.
+* Order completion time.
+* Promotion engagement.
+* Customer experience feedback.
+
+24.12 Owner Dashboard Integration
+
+Provide owners and managers with visibility into:
+
+* Customer check-in activity.
+* Orders awaiting preparation.
+* Pickup queue status.
+* Self-service utilization.
+* Employee workload indicators.
+* Average wait times.
+* Workflow bottlenecks.
