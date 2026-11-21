@@ -2334,3 +2334,130 @@ Build the smallest reliable version that demonstrates meaningful business value.
 Prioritize measurable improvements in profitability, inventory efficiency, purchasing decisions, and employee productivity.
 
 Do not sacrifice data accuracy, security, or regulatory safeguards to accelerate development.
+
+## 28. Testing, Validation and Quality Assurance
+
+### 28.1 Purpose
+
+BlackGrid must undergo structured testing before being introduced into production environments.
+
+The objective is to ensure that financial calculations, inventory intelligence, integrations, permissions, and reporting are accurate, reliable, and secure.
+
+### 28.2 Financial Accuracy Testing
+
+Validate:
+- Gross sales calculations.
+- Net sales calculations.
+- Discounts and returns.
+- Cost of goods sold.
+- Gross profit.
+- Gross margins.
+- Inventory valuation.
+- Product-level profitability.
+
+Compare BlackGrid calculations against independently verified source records.
+
+### 28.3 POS Integration Testing
+
+Test:
+- Successful data imports.
+- Duplicate transaction prevention.
+- Missing transaction detection.
+- Product identification and mapping.
+- Inventory synchronization.
+- Delayed synchronization.
+- Failed connections.
+- Recovery after connection interruptions.
+
+Every imported record must retain its source reference.
+
+### 28.4 Inventory Testing
+
+Validate:
+- Inventory quantities.
+- Inventory adjustments.
+- Units sold.
+- Inventory valuation.
+- Sales velocity.
+- Slow-moving product detection.
+- Overstock warnings.
+- Stockout predictions.
+
+### 28.5 Intelligence Testing
+
+Evaluate whether BlackGrid correctly identifies:
+- High-revenue, low-margin products.
+- Unprofitable promotions.
+- Excessive discounts.
+- Potential purchasing savings.
+- Slow-moving inventory.
+- Unusual financial changes.
+
+Recommendations must be explainable and supported by underlying data.
+
+### 28.6 Security Testing
+
+Test:
+- Authentication.
+- Password and session security.
+- Role-based permissions.
+- Organization data isolation.
+- Location-level permissions.
+- API security.
+- Integration credential protection.
+- Audit logging.
+
+### 28.7 User Experience Testing
+
+Evaluate:
+- Dashboard usability.
+- Navigation.
+- Mobile responsiveness.
+- Accessibility.
+- Notification visibility.
+- Report readability.
+- Ease of understanding financial insights.
+
+### 28.8 Performance Testing
+
+Test:
+- Dashboard loading.
+- Large transaction imports.
+- Multiple locations.
+- Database query performance.
+- Concurrent users.
+- Integration synchronization.
+- Report generation.
+
+### 28.9 Pilot Validation
+
+Before commercial launch, conduct controlled testing with authorized cannabis businesses.
+
+Pilot participants should evaluate:
+- Financial accuracy.
+- Inventory accuracy.
+- Usefulness of recommendations.
+- Time saved.
+- Ease of operation.
+- Reliability.
+- Overall business value.
+
+Use fictional or appropriately authorized test data during development.
+
+### 28.10 Issue Management
+
+Maintain a documented process for:
+- Recording defects.
+- Assigning priorities.
+- Investigating causes.
+- Tracking corrections.
+- Retesting fixes.
+- Approving releases.
+
+Critical financial, security, and data-integrity defects must be resolved before production deployment.
+
+### 28.11 Release Approval
+
+A release must not be considered production-ready until its required testing has passed and outstanding critical issues have been resolved.
+
+Maintain version history, deployment records, and rollback procedures.
