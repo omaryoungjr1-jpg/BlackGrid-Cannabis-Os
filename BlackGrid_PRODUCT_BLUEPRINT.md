@@ -3176,3 +3176,125 @@ The initial MVP must include:
 - Validation of user permissions
 
 Security testing must occur before any production customer data is introduced.
+
+## 35. Platform Administration and System Management
+
+### 35.1 Administration Objectives
+
+BlackGrid Cannabis OS should include a centralized administrative environment for managing platform configuration, system health, customer accounts, and technical operations.
+
+Administrative access must be restricted to authorized personnel.
+
+### 35.2 Platform Administration Dashboard
+
+The administrative dashboard should display:
+
+- Total registered organizations
+- Active and inactive accounts
+- Subscription plan distribution
+- Active user counts
+- System health indicators
+- Integration connection status
+- Recent administrative activity
+- Open system issues
+
+### 35.3 Organization Management
+
+Authorized platform administrators should be able to:
+
+- View organization account profiles
+- Review account status
+- Review subscription information
+- Manage account configuration
+- Review organization-level support issues
+- Suspend or deactivate accounts when authorized
+- Review account history
+
+Administrative access to customer business information must be limited to legitimate support and operational needs.
+
+### 35.4 User Administration
+
+The platform should support:
+
+- User account status management
+- Account verification status
+- Role and permission review
+- Account recovery support
+- Session management
+- Access revocation
+- Administrative activity history
+
+### 35.5 Subscription Administration
+
+Authorized administrators should be able to manage:
+
+- Subscription plans
+- Account plan assignments
+- Subscription status
+- Feature entitlements
+- Location limits
+- User limits
+- Trial configuration
+- Billing provider status
+
+Changes must be recorded in the audit history.
+
+### 35.6 Integration Administration
+
+The administrative environment should provide visibility into:
+
+- Available integration providers
+- Integration configuration status
+- Authorization status
+- Synchronization health
+- Import failures
+- Data validation errors
+- Provider connection issues
+
+Administrators must not bypass provider authorization or customer approval requirements.
+
+### 35.7 System Health Monitoring
+
+The platform should monitor:
+
+- Application availability
+- API health
+- Database health
+- Background job status
+- Synchronization processes
+- Error rates
+- Performance indicators
+- Backup status
+
+### 35.8 Support and Issue Management
+
+The platform should eventually include tools for:
+
+- Customer support requests
+- Issue categorization
+- Support status tracking
+- Internal notes
+- Resolution history
+- Escalation procedures
+
+Sensitive customer data should not be exposed unnecessarily during support activities.
+
+### 35.9 Configuration Management
+
+Authorized administrators should be able to manage approved platform settings without requiring changes to the core application code.
+
+Configuration changes must be validated, logged, and reversible where appropriate.
+
+### 35.10 MVP Requirements
+
+The initial MVP should include:
+
+- Basic platform administration dashboard
+- Organization account overview
+- User account management
+- Subscription status visibility
+- Integration status monitoring
+- System error visibility
+- Administrative audit history
+
+Advanced support tooling and automated infrastructure management can be introduced in later releases.
