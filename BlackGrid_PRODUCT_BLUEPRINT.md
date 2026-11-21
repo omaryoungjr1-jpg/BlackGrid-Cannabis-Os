@@ -59,3 +59,132 @@ Every feature should solve a real business problem, save time, reduce costs, or 
 * Maintain accurate records and audit trails.
 * Design modules that can grow independently.
 * Build for long-term nationwide expansion.
+6. BlackGrid Operating Modules
+
+BlackGrid Cannabis OS will consist of connected modules that work together to improve dispensary operations.
+
+6.1 BlackGrid Intelligence
+
+The business intelligence center.
+
+* Daily, weekly, and monthly sales reporting.
+* Best-selling and slowest-selling products.
+* Product, brand, and category performance.
+* Revenue and profit analysis.
+* Sales trend identification.
+* Demand forecasting.
+* Multi-location performance comparisons.
+
+6.2 BlackGrid Inventory Guardian
+
+The inventory management and monitoring center.
+
+* Real-time inventory visibility when supported by connected systems.
+* Low-stock alerts.
+* Slow-moving and aging inventory detection.
+* Inventory discrepancy monitoring.
+* Overstock identification.
+* Product expiration and aging alerts when data is available.
+* Stockout risk forecasting.
+
+6.3 BlackGrid Profit Leak Detector
+
+The financial intelligence center.
+
+* Identify products with declining margins.
+* Detect excessive discounting.
+* Identify unnecessary purchasing costs.
+* Analyze product profitability.
+* Compare revenue, discounts, returns, and cost of goods.
+* Highlight potential savings opportunities.
+
+6.4 BlackGrid Promotions
+
+The promotion and deal intelligence center.
+
+* Track vendor-provided deals.
+* Track dispensary promotions.
+* Compare promotion performance.
+* Calculate discount costs.
+* Identify promotions that increase profitable sales.
+* Identify promotions that reduce profitability.
+* Recommend better promotional opportunities.
+
+6.5 BlackGrid Procurement
+
+The vendor and purchasing center.
+
+* Organize vendor information.
+* Compare supplier pricing.
+* Track vendor offers and deals.
+* Recommend purchasing opportunities.
+* Monitor purchasing history.
+* Help prevent unnecessary inventory spending.
+* Prepare purchase order recommendations for approval.
+
+6.6 BlackGrid Compliance Guardian
+
+The compliance monitoring center.
+
+* Monitor authorized inventory and sales data.
+* Identify potential discrepancies.
+* Generate operational alerts.
+* Maintain audit history.
+* Track integration and synchronization status.
+* Support jurisdiction-specific compliance workflows.
+
+BlackGrid will not replace state-mandated tracking systems or the licensee’s legal compliance responsibilities.
+
+6.7 BlackGrid Customer Experience
+
+The customer shopping and service center.
+
+* Digital product catalog.
+* Customer deal discovery.
+* Digital check-in.
+* Order preparation workflow.
+* Customer self-service tools.
+* Reduce repetitive employee tasks.
+* Help employees focus on customers who need personal assistance.
+
+6.8 BlackGrid Smart Automation
+
+The future hardware and automation division.
+
+* Self-service kiosks.
+* Smart pickup lockers.
+* Customer identity verification workflows.
+* Secure pickup authorization.
+* Automated pickup notifications.
+* Integration with approved dispensary systems.
+
+Hardware development will happen after the core software is proven.
+
+⸻
+
+7. Connected Business Intelligence
+
+All modules should share authorized business information so BlackGrid can identify opportunities across the entire operation.
+
+Examples:
+
+* Inventory data combined with sales trends can identify products at risk of selling out.
+* Vendor pricing combined with product margins can identify better purchasing opportunities.
+* Promotion data combined with sales and costs can show whether a deal actually increased profit.
+* Customer shopping trends can help improve product availability and merchandising while protecting customer privacy.
+
+The objective is to give owners one connected view of their business rather than requiring them to use disconnected reports and spreadsheets.
+
+8. Product Development Priority
+
+Initial development priorities:
+
+1. BlackGrid Intelligence.
+2. BlackGrid Inventory Guardian.
+3. BlackGrid Profit Leak Detector.
+4. BlackGrid Promotions.
+5. BlackGrid Procurement.
+6. BlackGrid Compliance Guardian.
+7. BlackGrid Customer Experience.
+
+Smart kiosks and pickup lockers will be developed in a later phase.
