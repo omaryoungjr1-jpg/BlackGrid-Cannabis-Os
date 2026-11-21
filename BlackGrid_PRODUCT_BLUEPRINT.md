@@ -777,3 +777,89 @@ The software must eventually support:
 * Exception handling.
 
 Hardware development will follow validation of the core software and customer demand.
+
+15. Security, Privacy, and Regulatory Safeguards
+
+Security and privacy are foundational requirements for BlackGrid Cannabis OS.
+
+The platform must protect business information, customer privacy, employee accounts, and authorized system integrations.
+
+15.1 Data Protection
+
+* Encrypt information during transmission.
+* Use secure storage for sensitive information.
+* Protect database access.
+* Secure API credentials.
+* Apply least-privilege access.
+* Maintain backup and recovery procedures.
+
+15.2 Organization Separation
+
+* Prevent unauthorized access between organizations.
+* Enforce database-level access controls.
+* Apply location-specific permissions.
+* Test for cross-organization data exposure.
+* Keep supplier and dispensary information appropriately separated.
+
+15.3 Customer Privacy
+
+* Collect only information necessary for the requested functionality.
+* Minimize storage of personally identifiable information.
+* Do not expose customer-identifying information in supplier analytics.
+* Establish data retention and deletion policies.
+* Restrict access to customer records.
+
+15.4 Employee Access
+
+* Support role-based permissions.
+* Require authenticated access.
+* Record important account and administrative actions.
+* Support access revocation.
+* Protect sensitive administrative functions.
+
+15.5 Regulatory Compatibility
+
+BlackGrid must support jurisdiction-specific requirements.
+
+The system must:
+
+* Respect applicable state and local regulations.
+* Use authorized integrations with regulatory systems.
+* Maintain accurate records.
+* Support audit and reporting workflows.
+* Avoid unauthorized changes to regulated records.
+* Keep regulatory rules configurable by jurisdiction.
+
+BlackGrid is an operational software platform and does not replace state tracking systems, legal counsel, or the licensee’s compliance obligations.
+
+15.6 Integration Security
+
+* Use authorized provider credentials.
+* Follow provider API permissions and rate limits.
+* Protect integration secrets.
+* Monitor synchronization failures.
+* Maintain integration audit records.
+* Support credential revocation.
+
+15.7 Security Testing
+
+Before production deployment, BlackGrid must undergo:
+
+* Authentication testing.
+* Permission testing.
+* Database security testing.
+* Cross-tenant isolation testing.
+* API security testing.
+* Backup and recovery testing.
+* Vulnerability assessment.
+
+15.8 Incident Management
+
+The platform should support:
+
+* Security event logging.
+* Incident investigation.
+* Access revocation.
+* Recovery procedures.
+* Appropriate customer notification processes.
+
