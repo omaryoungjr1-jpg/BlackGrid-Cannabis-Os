@@ -3649,3 +3649,110 @@ Each development phase should have:
 - Documented release decisions
 
 Development should prioritize a reliable, secure, useful product over rapid feature expansion.
+
+## 38. Customer Support and Success
+
+### 38.1 Support Objectives
+
+BlackGrid Cannabis OS should provide a reliable customer support experience that helps authorized users understand the platform, resolve technical issues, and use available features effectively.
+
+### 38.2 Support Channels
+
+The platform should eventually support:
+
+- Customer support email
+- In-app support requests
+- Help center and documentation
+- Frequently asked questions
+- Product tutorials
+- System status announcements
+
+Additional support channels may be introduced as the company grows.
+
+### 38.3 Support Request Management
+
+The support system should allow customers to:
+
+- Submit support requests
+- Select an issue category
+- Describe the problem
+- Attach relevant permitted files
+- Review request status
+- Receive updates
+- View resolution history
+
+### 38.4 Support Priority
+
+Support requests should be categorized by priority:
+
+- Critical: major service interruption or significant security concern
+- High: important functionality unavailable
+- Medium: limited functionality or recurring technical issue
+- Low: general question or feature guidance
+
+Priority definitions and response expectations should be documented.
+
+### 38.5 Help Center
+
+The help center should provide organized documentation covering:
+
+- Account setup
+- Dashboard navigation
+- User permissions
+- Financial reports
+- Inventory reporting
+- Product profitability
+- Notifications
+- Integration configuration
+- Account settings
+- Troubleshooting
+
+Documentation should be updated when major features change.
+
+### 38.6 Customer Success
+
+BlackGrid should help customers understand how to use the platform effectively through:
+
+- Onboarding guidance
+- Feature education
+- Product updates
+- Usage guidance
+- Feedback collection
+- Periodic account reviews where appropriate
+
+### 38.7 Feedback Management
+
+Customers should be able to submit:
+
+- Feature requests
+- Product suggestions
+- Usability feedback
+- Bug reports
+- General comments
+
+Feedback should be categorized and reviewed to help guide future development.
+
+### 38.8 Support Security and Privacy
+
+Support personnel should only access customer information when authorized and necessary.
+
+The support process must:
+
+- Protect confidential business information
+- Avoid requesting passwords or authentication secrets
+- Use secure file-handling procedures
+- Record important administrative support actions
+- Follow applicable privacy and data-retention policies
+
+### 38.9 MVP Requirements
+
+The initial MVP should include:
+
+- Basic support contact information
+- A simple support request form
+- Issue categories
+- Request status tracking
+- Basic help documentation
+- A feedback collection mechanism
+
+Advanced customer success automation can be introduced in later releases.
