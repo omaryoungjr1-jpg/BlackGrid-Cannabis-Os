@@ -4002,3 +4002,110 @@ The initial MVP should include:
 - Responsive design
 - Consistent typography and spacing
 - Accessible status indicators
+
+## 41. Website and Public-Facing Digital Presence
+
+### 41.1 Website Objectives
+
+BlackGrid Innovations should have a professional public-facing website that introduces the company, explains BlackGrid Cannabis OS, and provides a clear way for prospective business customers to request information.
+
+The website should communicate credibility, innovation, security, and product value.
+
+### 41.2 Primary Website Pages
+
+The website should eventually include:
+
+- Home
+- About BlackGrid
+- Product Overview
+- Platform Features
+- Security and Privacy
+- Company Contact
+- Request a Demonstration
+- Customer Support
+- Privacy Policy
+- Terms of Service
+
+### 41.3 Homepage
+
+The homepage should introduce BlackGrid Innovations and clearly explain the purpose of BlackGrid Cannabis OS.
+
+It should include:
+
+- Company branding
+- Product introduction
+- Core platform capabilities
+- Key product benefits
+- Product interface previews
+- Security and reliability messaging
+- Demonstration request link
+- Contact information
+
+### 41.4 Product Overview
+
+The product page should explain the platform's major capabilities:
+
+- Financial intelligence
+- Sales reporting
+- Product profitability
+- Inventory intelligence
+- Vendor intelligence
+- Promotion reporting
+- Compliance monitoring
+- Business analytics
+- Multi-location visibility
+- Authorized integrations
+
+Product descriptions must accurately reflect features that have actually been implemented.
+
+### 41.5 Demonstration Requests
+
+Prospective business customers should be able to submit a demonstration request through a secure form.
+
+The form should collect only necessary business contact information.
+
+Requests should be stored securely and made accessible only to authorized personnel.
+
+### 41.6 Brand Consistency
+
+The public website should follow the BlackGrid visual identity:
+
+- Dark charcoal and black
+- Electric green accents
+- Clean typography
+- Modern layouts
+- Professional product imagery
+- Consistent company and product branding
+
+### 41.7 Website Security
+
+The website should support:
+
+- HTTPS
+- Secure form handling
+- Spam protection
+- Privacy-conscious analytics
+- Secure administrative access
+- Appropriate data retention
+- Accessible design
+
+### 41.8 Search and Discoverability
+
+The website should use clear page titles, descriptions, structured content, and accessible navigation.
+
+Search optimization should focus on accurately describing the software platform and its capabilities.
+
+### 41.9 MVP Requirements
+
+The initial public website should include:
+
+- Homepage
+- Company introduction
+- Product overview
+- Feature descriptions
+- Contact information
+- Demonstration request form
+- Privacy policy
+- Terms of service
+
+The website must not advertise capabilities that are not yet available.
