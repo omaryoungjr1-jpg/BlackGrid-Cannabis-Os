@@ -2663,3 +2663,110 @@ The initial MVP should include:
 - Basic account settings
 
 Advanced automated onboarding and live external integrations may be introduced in later releases.
+
+## 31. Notifications and Alert Management
+
+### 31.1 Notification Objectives
+
+BlackGrid Cannabis OS should provide a centralized notification system that communicates important business information to authorized users.
+
+Notifications should be timely, relevant, understandable, and connected to the user's role and permissions.
+
+### 31.2 Notification Categories
+
+The platform should support:
+
+- Financial performance alerts
+- Unusual sales reporting changes
+- Inventory data warnings
+- Product profitability alerts
+- Promotion performance notifications
+- Vendor information updates
+- Integration and synchronization errors
+- Compliance monitoring alerts
+- User account and security notifications
+- System maintenance announcements
+
+### 31.3 Alert Priority Levels
+
+Notifications should support four priority levels:
+
+**Critical**
+Requires prompt administrator or authorized user attention.
+
+**High**
+Important issue requiring timely review.
+
+**Medium**
+Requires attention but may not need immediate action.
+
+**Informational**
+Provides useful updates without requiring action.
+
+Priority must be determined by configurable rules and should not rely on color alone.
+
+### 31.4 Role-Based Notifications
+
+Notifications should be distributed according to user permissions:
+
+- Owners: financial performance, business health, major alerts, and organization-wide issues.
+- Managers: operational information, assigned responsibilities, and location-level alerts.
+- Employees: relevant assigned tasks and permitted operational notifications.
+- Administrators: account security, configuration, system health, and integration issues.
+
+### 31.5 Notification Center
+
+The application should include a centralized notification center with:
+
+- Unread notification count
+- Notification history
+- Priority indicators
+- Timestamps
+- Related location or organization
+- Notification descriptions
+- Relevant supporting information
+- Read and unread status
+- Filtering and search
+
+### 31.6 Notification Preferences
+
+Authorized users should be able to configure:
+
+- Notification categories
+- In-app notification preferences
+- Email notification preferences
+- Frequency of noncritical summaries
+- Quiet hours where appropriate
+
+Critical security and account notifications must follow required security policies and cannot be disabled when doing so would compromise account protection.
+
+### 31.7 Alert Investigation
+
+Where appropriate, a notification should link to the relevant dashboard, report, integration status, or audit record.
+
+The platform should explain why an alert was generated and identify the information supporting it.
+
+### 31.8 Notification Reliability
+
+The system should support:
+
+- Duplicate notification prevention
+- Delivery status tracking
+- Retry handling for supported delivery methods
+- Notification timestamps
+- Error logging
+- Audit history for important alerts
+
+### 31.9 MVP Requirements
+
+The initial MVP should include:
+
+- In-app notification center
+- Priority levels
+- Read and unread status
+- Role-based notification visibility
+- Basic notification history
+- Financial and inventory sample alerts
+- Integration error notifications using simulated data
+
+External email and advanced notification delivery can be introduced in later releases.
