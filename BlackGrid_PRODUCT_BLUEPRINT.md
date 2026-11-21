@@ -1069,3 +1069,60 @@ Owners authorized to manage multiple locations will be able to:
 * Users must not be able to bypass permissions by changing URLs or frontend settings.
 
 The objective is to give every user the information they need to perform their job without exposing information they do not need.
+
+18. Financial Intelligence — Calculation Rules
+
+18.1 Purpose
+
+BlackGrid Financial Intelligence will convert dispensary transaction, inventory, purchasing, and promotion data into accurate financial information that helps business owners understand profitability, identify financial leaks, and make better operating decisions.
+
+18.2 Core Financial Metrics
+
+The platform must support the following calculations:
+
+* Gross Sales: Total recorded product sales before discounts and returns.
+* Discounts: Total reductions applied to product sales.
+* Returns: Total reversed or refunded sales.
+* Net Sales: Gross Sales minus Discounts and Returns.
+* Cost of Goods Sold (COGS): Recorded acquisition cost of products sold.
+* Gross Profit: Net Sales minus COGS.
+* Gross Margin: Gross Profit divided by Net Sales, multiplied by 100.
+* Inventory Value: Recorded cost value of available inventory.
+
+18.3 Financial Accuracy Rules
+
+1. Never count collected taxes as ordinary sales revenue.
+2. Track sales taxes, excise taxes, and other tax categories separately.
+3. Prevent discounts and returns from being deducted more than once.
+4. Distinguish actual recorded costs from estimated costs.
+5. Never present estimated profit as confirmed profit.
+6. If product cost information is missing, identify the margin as unavailable.
+7. Preserve the original transaction data and its source.
+8. Support different tax and accounting configurations by jurisdiction.
+9. Record the reporting period and last successful data synchronization.
+10. Allow authorized users to investigate how every financial metric was calculated.
+
+18.4 Financial Transparency
+
+Every major financial metric should allow an authorized user to see the underlying calculation and supporting records.
+
+BlackGrid must distinguish between:
+
+* Actual recorded financial results.
+* Estimated financial results.
+* Potential savings opportunities.
+* Unverified or incomplete financial information.
+
+18.5 Business Intelligence Objective
+
+The goal is not simply to show owners how much money their dispensary generated.
+
+BlackGrid must help answer:
+
+* How much money did the business actually generate?
+* Which products generate the strongest gross profit?
+* Which products generate high sales but weak margins?
+* How much money is being given away through discounts?
+* Which products are tying up inventory capital?
+* Where are purchasing costs increasing?
+* Where can the business potentially save money?
