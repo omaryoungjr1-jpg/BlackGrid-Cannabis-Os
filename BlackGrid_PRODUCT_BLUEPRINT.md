@@ -338,3 +338,162 @@ GitHub will serve as the primary source-code repository.
 The project must remain portable so BlackGrid is not permanently dependent on a single visual development platform.
 
 All production credentials and secrets must remain outside the public source code.
+
+11. Database Architecture and Data Organization
+
+BlackGrid will use a relational PostgreSQL database.
+
+The database must support multiple organizations, multiple dispensary locations, secure data separation, and connected business intelligence.
+
+11.1 Organization Management
+
+Organizations represent individual cannabis businesses.
+
+Each organization may have multiple locations and users.
+
+11.2 User Management
+
+Store:
+
+* User accounts.
+* Organization memberships.
+* Location permissions.
+* Roles and access permissions.
+
+Initial roles:
+
+* Owner.
+* Administrator.
+* Manager.
+* Employee.
+* Read-only analyst.
+
+11.3 Location Management
+
+Each dispensary location must belong to an organization.
+
+Location records will include:
+
+* Location name.
+* Address.
+* State and jurisdiction.
+* POS connection.
+* Operating status.
+
+11.4 Product Management
+
+Product records must support:
+
+* Product name.
+* SKU.
+* Brand.
+* Category.
+* Package identifier when applicable.
+* External POS product identifier.
+* Cost information.
+* Retail price.
+* Active status.
+
+Product SKUs and regulated package identifiers must remain separate fields.
+
+11.5 Sales Management
+
+Sales records must support:
+
+* Transaction identifier.
+* Organization.
+* Location.
+* Transaction date.
+* Product details.
+* Quantity.
+* Gross sales.
+* Discounts.
+* Returns.
+* Net sales.
+* Taxes.
+* Cost of goods when available.
+* Source system.
+
+Tax collected must not be treated as ordinary business revenue.
+
+11.6 Inventory Management
+
+Inventory records must support:
+
+* Product.
+* Location.
+* Quantity on hand.
+* Inventory movement.
+* Package information.
+* Inventory adjustments.
+* Stock levels.
+* Last synchronization time.
+
+11.7 Vendor and Purchasing Management
+
+Vendor records must support:
+
+* Vendor information.
+* Products offered.
+* Pricing.
+* Discounts and deals.
+* Purchase history.
+* Purchase orders.
+* Order recommendations.
+* Approval status.
+
+11.8 Promotion Management
+
+Promotion records must support:
+
+* Promotion name.
+* Vendor or dispensary source.
+* Eligible products.
+* Discount structure.
+* Start and end dates.
+* Redemption history.
+* Discount costs.
+* Sales performance.
+* Profit impact.
+
+11.9 Compliance and Audit Management
+
+Store:
+
+* Authorized compliance monitoring events.
+* Potential discrepancy alerts.
+* User actions.
+* Record changes.
+* Integration synchronization history.
+* Audit timestamps.
+
+11.10 Integration Management
+
+Store:
+
+* POS provider.
+* Integration provider.
+* Organization and location association.
+* Connection status.
+* Synchronization history.
+* External record identifiers.
+* Error history.
+
+Credentials and API secrets must be stored securely outside ordinary application tables.
+
+11.11 Database Security Requirements
+
+* Every organization-owned record must have an organization association.
+* Location-specific records must also identify their location.
+* Row-Level Security must prevent unauthorized cross-organization access.
+* Database relationships must enforce data integrity.
+* Financial calculations must use precise numeric values.
+* Duplicate external transactions must be prevented.
+* Important changes must be auditable.
+* Test data must be separated from production data.
+
+11.12 Business Intelligence Data
+
+BlackGrid will use authorized sales, product, inventory, vendor, and promotion records to calculate business insights.
+
+If required information is missing, BlackGrid must identify the result as unavailable or estimated rather than inventing a financial value.
