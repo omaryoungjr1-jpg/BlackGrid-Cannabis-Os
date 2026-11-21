@@ -497,3 +497,124 @@ Credentials and API secrets must be stored securely outside ordinary application
 BlackGrid will use authorized sales, product, inventory, vendor, and promotion records to calculate business insights.
 
 If required information is missing, BlackGrid must identify the result as unavailable or estimated rather than inventing a financial value.
+
+12. Financial Intelligence and Profit Analysis
+
+BlackGrid must provide accurate financial intelligence that helps cannabis businesses understand revenue, costs, profitability, and potential savings.
+
+12.1 Revenue Analysis
+
+BlackGrid will calculate and report:
+
+* Gross sales.
+* Discounts.
+* Returns and refunds.
+* Net sales.
+* Taxes collected.
+* Sales trends.
+* Revenue by product.
+* Revenue by category.
+* Revenue by brand.
+* Revenue by location.
+
+Taxes collected must be reported separately from business revenue.
+
+12.2 Product Profitability
+
+BlackGrid will analyze:
+
+* Product cost.
+* Retail selling price.
+* Units sold.
+* Discount impact.
+* Cost of goods sold.
+* Gross profit.
+* Gross profit margin.
+
+Gross Profit = Net Sales - Cost of Goods Sold.
+
+Gross Margin Percentage = (Gross Profit / Net Sales) × 100.
+
+If product cost information is missing or outdated, profitability must be labeled unavailable or estimated.
+
+12.3 Profit Leak Detection
+
+BlackGrid will identify potential financial problems, including:
+
+* Excessive discounting.
+* Products with declining margins.
+* Products that sell below target profitability.
+* Unnecessary purchasing costs.
+* Overstock and aging inventory.
+* Unprofitable promotions.
+* Vendor price increases.
+* Unexpected sales or inventory discrepancies.
+
+Each alert should explain the reason and provide supporting data.
+
+12.4 Promotion Profitability
+
+BlackGrid must evaluate whether promotions create actual financial value.
+
+Promotion analysis will include:
+
+* Total discounted sales.
+* Discount expense.
+* Units sold.
+* Product costs.
+* Gross profit.
+* Comparison with a reasonable baseline.
+* Estimated incremental sales.
+* Estimated incremental profit.
+
+A promotion should not be considered successful simply because it increases sales volume.
+
+12.5 Vendor Savings Intelligence
+
+BlackGrid will compare authorized vendor pricing and offers.
+
+The system should identify:
+
+* Lower available prices for comparable products.
+* Vendor discounts.
+* Volume pricing.
+* Purchasing opportunities.
+* Changes in supplier pricing.
+* Potential purchasing savings.
+
+Recommendations must account for product quality, availability, minimum order requirements, and other relevant conditions when available.
+
+12.6 Inventory Financial Intelligence
+
+BlackGrid will connect inventory and sales data to identify:
+
+* Capital tied up in slow-moving inventory.
+* Products at risk of becoming overstocked.
+* Products likely to sell out.
+* Reorder opportunities.
+* Potential losses from aging inventory.
+
+12.7 Business Savings Reports
+
+BlackGrid will provide reports showing:
+
+* Identified savings opportunities.
+* Estimated financial impact.
+* Actual savings when verified.
+* Recommendations completed.
+* Recommendations declined.
+* Results after implementation.
+
+Estimated savings must never be presented as guaranteed savings.
+
+12.8 Financial Data Accuracy
+
+* Use precise decimal calculations.
+* Identify missing data.
+* Distinguish actual results from estimates.
+* Track the source of financial information.
+* Avoid double-counting discounts or returns.
+* Maintain calculation consistency across reports.
+* Allow authorized users to inspect the underlying numbers.
+
+The objective is to give owners trustworthy financial information they can use to make better decisions.
