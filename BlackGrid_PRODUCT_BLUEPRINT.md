@@ -618,3 +618,82 @@ Estimated savings must never be presented as guaranteed savings.
 * Allow authorized users to inspect the underlying numbers.
 
 The objective is to give owners trustworthy financial information they can use to make better decisions.
+
+13. Two-Sided Vendor and Promotion Intelligence
+
+BlackGrid will provide business intelligence for both cannabis retailers and authorized suppliers.
+
+The goal is to improve purchasing decisions, promotional effectiveness, product visibility, and business relationships.
+
+13.1 Dispensary Intelligence
+
+Dispensaries will be able to:
+
+* View available vendor offers.
+* Compare authorized supplier pricing.
+* Identify purchasing discounts.
+* Evaluate wholesale deals.
+* Track promotion performance.
+* Identify profitable products.
+* Discover opportunities to reduce purchasing costs.
+
+13.2 Supplier Intelligence
+
+Authorized suppliers may eventually receive a separate supplier portal.
+
+Supplier features may include:
+
+* Product performance reporting.
+* Authorized promotion tracking.
+* Offer management.
+* Campaign performance.
+* Aggregated sales trends.
+* Product demand insights.
+* Promotion effectiveness reports.
+
+13.3 Deal Management
+
+BlackGrid will support:
+
+* Vendor-provided deals.
+* Dispensary-created promotions.
+* Product discounts.
+* Volume discounts.
+* Limited-time offers.
+* Promotion eligibility.
+* Offer expiration tracking.
+* Deal comparison.
+
+13.4 Two-Sided Savings Analysis
+
+BlackGrid will analyze the financial impact of deals on both sides.
+
+For dispensaries:
+
+* Purchasing savings.
+* Product margins.
+* Promotion costs.
+* Inventory efficiency.
+* Incremental profit.
+
+For suppliers:
+
+* Campaign performance.
+* Product movement.
+* Promotion effectiveness.
+* Authorized aggregated demand trends.
+
+13.5 Data Privacy and Permissions
+
+* Suppliers must never access unauthorized dispensary financial records.
+* Dispensaries must never access another business’s private purchasing information.
+* Supplier reporting must be permission-based.
+* Aggregated reporting must protect business confidentiality.
+* Customer-identifying information must not be exposed to suppliers.
+* Every organization must control its data-sharing permissions.
+
+13.6 Future Business Network
+
+BlackGrid may eventually develop a business network connecting dispensaries and suppliers through authorized offers, product information, and purchasing opportunities.
+
+The network must create measurable value without compromising customer privacy or business confidentiality.
