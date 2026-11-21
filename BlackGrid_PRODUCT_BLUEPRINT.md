@@ -2461,3 +2461,112 @@ Critical financial, security, and data-integrity defects must be resolved before
 A release must not be considered production-ready until its required testing has passed and outstanding critical issues have been resolved.
 
 Maintain version history, deployment records, and rollback procedures.
+
+## 29. Pricing and Subscription Model
+
+### 29.1 Business Model
+
+BlackGrid Cannabis OS will operate as a business-to-business (B2B) software-as-a-service (SaaS) platform.
+
+Customers will pay recurring subscription fees for access to the platform. Pricing should be predictable, transparent, and scalable as customer organizations grow.
+
+### 29.2 Subscription Structure
+
+The platform should support three primary subscription tiers:
+
+**Starter**
+- Core owner dashboard
+- Basic sales and financial reporting
+- Product performance insights
+- Basic inventory visibility
+- Standard alerts
+- One business location
+
+**Professional**
+- All Starter features
+- Advanced financial intelligence
+- Inventory intelligence
+- Promotion performance reporting
+- Vendor intelligence
+- Expanded reporting
+- Additional user roles and permissions
+- Multiple locations, subject to plan limits
+
+**Enterprise**
+- All Professional features
+- Advanced multi-location reporting
+- Organization-wide analytics
+- Expanded user and permission management
+- Advanced integration capabilities
+- Custom reporting
+- Priority support
+- Custom organizational configuration
+
+### 29.3 Optional Add-On Services
+
+The pricing architecture should support optional paid capabilities, including:
+
+- Additional business locations
+- Advanced analytics
+- Expanded data retention
+- Custom reporting
+- Premium integration support
+- Enterprise onboarding
+- Additional administrative capabilities
+
+Add-ons must be clearly described and priced separately.
+
+### 29.4 Pricing Administration
+
+Administrators should be able to configure:
+
+- Subscription tiers
+- Monthly and annual billing options
+- Location limits
+- User limits
+- Feature access
+- Trial periods
+- Subscription status
+- Plan upgrades and downgrades
+- Account billing history
+
+Changes to subscription settings must be recorded in an administrative audit history.
+
+### 29.5 Scalability
+
+The pricing system must support:
+
+- Independent businesses
+- Multi-location organizations
+- Enterprise customers
+- Future nationwide expansion
+- Different feature packages
+- Custom enterprise agreements
+
+Pricing rules should be configurable without requiring changes to the core application architecture.
+
+### 29.6 Billing and Security Boundaries
+
+The platform should use an established, authorized billing provider when payment processing is introduced.
+
+BlackGrid should not store raw payment card information.
+
+Billing access must be restricted to authorized account owners and administrators. Subscription and billing records must be protected through appropriate security controls.
+
+### 29.7 Pricing Strategy
+
+Initial pricing should be designed to make adoption accessible to smaller licensed businesses while allowing revenue to grow as customers use additional capabilities and locations.
+
+Final subscription prices will be determined through market research, operating-cost analysis, customer feedback, and product validation.
+
+### 29.8 MVP Requirements
+
+The initial MVP should include:
+
+- A configurable subscription-plan structure
+- Feature-access controls
+- Organization and location limits
+- A subscription status field
+- An administrative plan-management interface
+
+Live recurring billing is not required for the first demonstration. Subscription plans may initially be represented using simulated account data.
