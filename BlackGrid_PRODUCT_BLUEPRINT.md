@@ -242,3 +242,99 @@ The platform must support:
 9.6 Future Expansion
 
 The integration architecture must allow BlackGrid to support additional POS providers, third-party services, and jurisdiction-specific regulatory systems as the company expands nationwide.
+
+10. Technical Architecture
+
+BlackGrid Cannabis OS will use a modular monolith architecture for its initial development.
+
+The architecture must be affordable to develop, secure, maintainable, and capable of supporting nationwide expansion.
+
+10.1 Frontend
+
+Initial technologies:
+
+* Next.js.
+* React.
+* TypeScript.
+* Tailwind CSS.
+* shadcn/ui.
+
+The frontend will provide the dashboards, reports, inventory screens, business tools, and customer-facing experiences.
+
+10.2 Backend
+
+The initial backend will use Next.js server-side functionality.
+
+It will manage:
+
+* Business logic.
+* POS integrations.
+* Data processing.
+* Business reporting.
+* Automation workflows.
+* User permissions.
+* API communication.
+
+Sensitive operations must never depend on frontend-only security.
+
+10.3 Database
+
+Supabase PostgreSQL will serve as the initial database platform.
+
+The database must support:
+
+* Multiple organizations.
+* Multiple dispensary locations.
+* Users and memberships.
+* Products and inventory.
+* Sales and transactions.
+* Vendors and purchasing.
+* Promotions and discounts.
+* Compliance monitoring.
+* Integration records.
+* Audit history.
+
+Financial values must use precise decimal database types rather than floating-point calculations.
+
+10.4 Authentication and Security
+
+Supabase Auth will provide user authentication.
+
+Row-Level Security (RLS) will enforce organization and location-based data access.
+
+Security requirements:
+
+* Strict separation between customer organizations.
+* Role-based permissions.
+* Secure credential storage.
+* Encrypted communication.
+* Audit logging.
+* Minimal collection of customer information.
+* Secure handling of integration credentials.
+
+10.5 Modular Application Design
+
+Each BlackGrid operating module must have clearly separated responsibilities while sharing authorized business data.
+
+The initial application will remain one deployable system with organized internal modules.
+
+10.6 Scalability
+
+The architecture must support:
+
+* Independent dispensaries.
+* Multi-location operators.
+* Multiple states.
+* Different state-specific regulatory requirements.
+* Additional POS integrations.
+* Future kiosk and locker hardware.
+
+State-specific rules must be configurable rather than hardcoded throughout the application.
+
+10.7 Source Code Ownership
+
+GitHub will serve as the primary source-code repository.
+
+The project must remain portable so BlackGrid is not permanently dependent on a single visual development platform.
+
+All production credentials and secrets must remain outside the public source code.
