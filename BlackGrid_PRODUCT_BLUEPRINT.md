@@ -3859,3 +3859,146 @@ The initial MVP should include:
 - Privacy-conscious analytics configuration
 
 Advanced product analytics can be introduced after the initial application foundation is stable.
+
+## 40. Brand Identity and Product Experience
+
+### 40.1 Brand Identity
+
+The company brand is **BlackGrid Innovations**.
+
+The software product is **BlackGrid Cannabis OS**.
+
+BlackGrid should communicate:
+
+- Intelligence
+- Reliability
+- Innovation
+- Professionalism
+- Security
+- Operational clarity
+- Business confidence
+
+The product should feel like a premium enterprise software platform rather than a generic industry dashboard.
+
+### 40.2 Visual Design Direction
+
+The platform should use a hybrid interface:
+
+- Dark navigation and sidebar
+- Clean, light main workspace
+- Structured information hierarchy
+- Modern typography
+- Consistent spacing
+- Clear data visualizations
+- Professional dashboard layouts
+
+### 40.3 Color System
+
+The primary visual system should include:
+
+**Dark charcoal and black**
+Used for navigation, primary interface framing, and brand identity.
+
+**Electric green**
+Used for positive performance, growth, savings, and successful actions.
+
+**Red**
+Used for critical alerts, important warnings, financial losses, and declining performance.
+
+**Amber and orange**
+Used for caution indicators and items requiring review.
+
+**Neutral gray**
+Used for informational content, secondary labels, and supporting interface elements.
+
+Color must never be the only way important information is communicated. Labels, icons, and descriptive text should also identify status.
+
+### 40.4 Logo and Brand Assets
+
+BlackGrid should develop a consistent brand identity system that includes:
+
+- Primary company logo
+- Product logo
+- Application icon
+- Light-background logo variation
+- Dark-background logo variation
+- Brand color specifications
+- Typography guidelines
+
+Brand assets should be reusable across the application, website, documentation, and future marketing materials.
+
+### 40.5 User Experience Principles
+
+The application should prioritize:
+
+- Clarity over unnecessary complexity
+- Useful information over decorative elements
+- Consistent navigation
+- Fast access to important insights
+- Clear explanations of financial metrics
+- Understandable alerts
+- Accessible interface components
+- Responsive layouts
+
+### 40.6 Role-Based Experience
+
+The visual experience should adapt to each user's responsibilities while maintaining one connected platform.
+
+**Owner**
+Emphasize financial intelligence, business performance, profitability, and organization-wide visibility.
+
+**Manager**
+Emphasize operational reporting, inventory visibility, assigned responsibilities, and location-level information.
+
+**Employee**
+Emphasize permitted tasks, relevant notifications, and limited operational information.
+
+**Administrator**
+Emphasize system configuration, account management, integrations, security, and audit history.
+
+### 40.7 Dashboard Standards
+
+Dashboards should use consistent patterns for:
+
+- Metric cards
+- Trend charts
+- Tables
+- Filters
+- Status indicators
+- Notifications
+- Supporting explanations
+- Navigation
+
+Important information should be easy to identify without overwhelming the user.
+
+### 40.8 Accessibility
+
+The interface should follow recognized accessibility practices, including:
+
+- Readable text
+- Sufficient contrast
+- Keyboard navigation
+- Accessible form labels
+- Clear focus indicators
+- Descriptive icons
+- Screen-reader-friendly components
+- Responsive layouts
+
+### 40.9 Product Consistency
+
+All application modules should follow the same design system.
+
+New features should reuse established components and patterns wherever practical.
+
+### 40.10 MVP Requirements
+
+The initial MVP should include:
+
+- Consistent BlackGrid branding
+- Dark navigation and light workspace
+- Defined color system
+- Reusable interface components
+- Role-specific dashboard layouts
+- Responsive design
+- Consistent typography and spacing
+- Accessible status indicators
