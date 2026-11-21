@@ -3298,3 +3298,185 @@ The initial MVP should include:
 - Administrative audit history
 
 Advanced support tooling and automated infrastructure management can be introduced in later releases.
+
+## 36. Technical Architecture and Technology Stack
+
+### 36.1 Architecture Objectives
+
+BlackGrid Cannabis OS should use a modern, modular, secure, and scalable architecture.
+
+The technical foundation must support:
+
+- Multiple customer organizations
+- Multiple business locations
+- Role-based user experiences
+- Financial and operational analytics
+- Authorized external integrations
+- Secure data storage
+- Future mobile experiences
+- Nationwide expansion
+
+### 36.2 Frontend Application
+
+The frontend should provide a responsive web application that works across desktop, tablet, and mobile screen sizes.
+
+The interface should use reusable components and a consistent design system.
+
+The frontend should support:
+
+- Role-specific dashboards
+- Navigation and application modules
+- Data tables
+- Interactive charts
+- Search and filtering
+- Notifications
+- Account settings
+- Responsive layouts
+
+### 36.3 Backend Architecture
+
+The backend should manage:
+
+- Authentication
+- Authorization
+- Organization and location management
+- Business data
+- Financial calculations
+- Reporting
+- Notifications
+- Integration workflows
+- Administrative operations
+
+Sensitive calculations and permission checks must be performed or verified on the backend rather than relying exclusively on frontend logic.
+
+### 36.4 Database Architecture
+
+The database should support structured relational business data.
+
+It must include appropriate relationships between:
+
+- Organizations
+- Locations
+- Users
+- Roles and permissions
+- Products
+- Sales reporting records
+- Inventory records
+- Vendors
+- Promotions
+- Financial calculations
+- Notifications
+- Integration records
+- Audit events
+- Subscription records
+
+Organization-level data isolation must be enforced through database policies and backend authorization.
+
+### 36.5 Recommended Initial Technology
+
+The initial prototype may use the following technology:
+
+- Frontend: React with TypeScript
+- Application tooling: Vite
+- Styling: Tailwind CSS
+- UI components: reusable accessible component library
+- Backend services: Supabase
+- Database: PostgreSQL
+- Authentication: Supabase Auth
+- Source control: GitHub
+- Initial interface development: Lovable
+
+Technology choices should be reviewed as the application grows.
+
+### 36.6 Application Architecture
+
+The application should use a modular structure.
+
+Major modules should include:
+
+- Dashboard
+- Sales Intelligence
+- Financial Intelligence
+- Inventory Intelligence
+- Product Profitability
+- Promotions
+- Vendor Intelligence
+- Reporting
+- Compliance Monitoring
+- Notifications
+- Integrations
+- Administration
+- Subscription Management
+
+Modules should share consistent data models, permissions, and design components.
+
+### 36.7 Integration Layer
+
+External connections should be managed through a dedicated integration layer.
+
+The integration layer should support:
+
+- Provider-specific connectors
+- Secure authorization
+- Data normalization
+- Validation
+- Synchronization tracking
+- Error handling
+- Retry management
+- Integration health monitoring
+
+Only provider-authorized and validated integrations may be used in production.
+
+### 36.8 Development Environments
+
+Development should use separate environments where appropriate:
+
+- Local development
+- Testing and staging
+- Production
+
+Fictional demo data must remain separate from real customer information.
+
+Production credentials and sensitive configuration must never be committed to public source repositories.
+
+### 36.9 Performance and Scalability
+
+The architecture should support:
+
+- Efficient database queries
+- Pagination for large datasets
+- Appropriate caching
+- Background processing
+- API rate limiting
+- Monitoring
+- Horizontal scaling where necessary
+
+### 36.10 Technical Documentation
+
+The project should maintain documentation covering:
+
+- Architecture decisions
+- Database structure
+- API behavior
+- Integration contracts
+- Environment configuration
+- Deployment procedures
+- Testing requirements
+- Security controls
+
+### 36.11 MVP Technical Priorities
+
+The initial MVP should prioritize:
+
+1. Reliable application structure
+2. Secure authentication
+3. Organization-level data isolation
+4. Core database models
+5. Owner dashboard
+6. Financial calculations
+7. Product profitability
+8. Inventory reporting
+9. Fictional sample-data workflows
+10. Testing and deployment readiness
+
+Advanced infrastructure and production integrations should be introduced only when justified by validated product requirements.
