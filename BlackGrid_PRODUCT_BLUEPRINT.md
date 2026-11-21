@@ -2043,3 +2043,152 @@ Provide visibility into:
 * Automated pickup volume.
 * Employee intervention rates.
 * Estimated labor savings.
+
+26. Multi-Location and Nationwide Intelligence
+
+26.1 Purpose
+
+BlackGrid must support cannabis businesses operating one or multiple licensed locations across different jurisdictions.
+
+The objective is to provide centralized business intelligence while allowing each location to maintain its own operational controls, financial records, permissions, and regulatory requirements.
+
+26.2 Multi-Location Management
+
+Allow authorized organizations to:
+
+* Add and manage multiple dispensary locations.
+* Assign employees to specific locations.
+* Configure location-specific permissions.
+* Monitor individual location performance.
+* Compare business performance across locations.
+* View consolidated organizational reports.
+* Manage location-specific integrations.
+* Configure location-specific operational settings.
+
+26.3 Centralized Owner Dashboard
+
+Provide multi-location owners with a centralized dashboard showing:
+
+* Total organizational sales.
+* Net sales by location.
+* Gross profit by location.
+* Gross margin comparisons.
+* Inventory value.
+* Purchasing expenditures.
+* Promotion performance.
+* Operational alerts.
+* Compliance investigation status.
+* Location performance rankings.
+
+Owners should be able to move from organizational summaries into individual location details.
+
+26.4 Location Comparisons
+
+Allow authorized users to compare locations using:
+
+* Sales performance.
+* Product profitability.
+* Inventory turnover.
+* Discount spending.
+* Purchasing costs.
+* Promotion effectiveness.
+* Customer wait times.
+* Operational efficiency.
+
+Comparisons must account for differences in reporting periods, product availability, and local operating conditions.
+
+26.5 Nationwide Regulatory Configuration
+
+Design BlackGrid to support different state and local regulatory environments.
+
+Each jurisdiction may have different requirements involving:
+
+* Cannabis licensing.
+* Product classifications.
+* Tax structures.
+* Advertising restrictions.
+* Inventory tracking.
+* Transaction reporting.
+* Customer eligibility.
+* Delivery and pickup procedures.
+* Record retention.
+
+Regulatory configurations must be jurisdiction-specific and maintained through a controlled update process.
+
+BlackGrid must not assume that a workflow permitted in one state is permitted in another.
+
+26.6 Integration Flexibility
+
+Support different POS providers, inventory systems, approved regulatory integrations, and hardware providers across locations.
+
+Each connection must have its own:
+
+* Authorization.
+* Credentials.
+* Synchronization configuration.
+* Error monitoring.
+* Data mapping.
+* Audit history.
+
+The system should use a standardized integration architecture while respecting provider-specific and jurisdiction-specific requirements.
+
+26.7 Organization and Data Separation
+
+Maintain strict separation between organizations and their respective locations.
+
+Requirements include:
+
+* Organization-level data isolation.
+* Location-level access permissions.
+* Role-based authorization.
+* Secure integration credentials.
+* Auditable administrative actions.
+* Controlled cross-location reporting.
+* Protection against unauthorized data sharing.
+
+Employees should only access information permitted by their assigned roles and organizational permissions.
+
+26.8 Cross-Location Intelligence
+
+Identify business opportunities across an organization’s locations.
+
+Examples include:
+
+* Products performing well at one location but poorly at another.
+* Differences in vendor acquisition costs.
+* Locations experiencing repeated stockouts.
+* Locations carrying excessive slow-moving inventory.
+* Promotions producing different results across locations.
+* Operational processes that could be improved.
+
+Recommendations must consider local market conditions and applicable regulatory restrictions.
+
+26.9 Nationwide Business Intelligence
+
+Design future capabilities that can help authorized operators understand broader business trends across their own operations.
+
+Potential capabilities include:
+
+* Multi-state financial reporting.
+* Consolidated inventory intelligence.
+* Cross-location vendor comparisons.
+* Purchasing optimization.
+* Promotion performance analysis.
+* Operational benchmarking.
+* Jurisdiction-specific reporting.
+
+Any external benchmarking must use appropriately authorized and privacy-protected information.
+
+26.10 Owner Dashboard Integration
+
+Provide organizational owners with:
+
+* Enterprise-wide performance summaries.
+* Location-level comparisons.
+* State and jurisdiction filters.
+* Consolidated financial intelligence.
+* Cross-location savings opportunities.
+* Location-specific alerts.
+* Organization-wide operational reporting.
+
+The experience must remain useful for both a single-location independent dispensary and a large multi-location operator.
