@@ -1912,3 +1912,134 @@ Provide owners and managers with visibility into:
 * Employee workload indicators.
 * Average wait times.
 * Workflow bottlenecks.
+
+25. Smart Automation and Pickup Locker Intelligence
+
+25.1 Purpose
+
+BlackGrid Smart Automation will provide the software foundation for future automated dispensary workflows, including smart pickup lockers, customer check-in stations, and self-service kiosks.
+
+The objective is to reduce repetitive employee tasks, improve pickup efficiency, and allow dispensary employees to focus on in-person customer service.
+
+25.2 Smart Pickup Locker Architecture
+
+Design a centralized software platform capable of communicating with compatible smart locker hardware.
+
+The platform should support:
+
+* Individual locker identification.
+* Locker availability monitoring.
+* Secure locker assignment.
+* Locker status monitoring.
+* Order-to-locker association.
+* Pickup authorization.
+* Time-stamped access records.
+* Remote status visibility.
+* Hardware connectivity monitoring.
+
+25.3 Customer Pickup Workflow
+
+Design the following future workflow:
+
+1. An authorized employee completes the required order review and approval.
+2. The system confirms that the order is eligible for the approved pickup workflow.
+3. An authorized process verifies the customer’s identity and eligibility.
+4. The system assigns an available locker when permitted.
+5. The customer receives a secure pickup notification.
+6. The customer arrives and completes the required verification.
+7. The system authorizes access to the assigned locker.
+8. The customer retrieves the approved order.
+9. The system records the pickup event.
+10. The order is marked completed through an authorized workflow.
+
+No locker should open based solely on possession of an order number or notification.
+
+25.4 Identity and Pickup Security
+
+Support secure integration with approved identity verification and access-control systems.
+
+Security requirements include:
+
+* Appropriate customer identity and eligibility verification.
+* Unique, time-limited pickup credentials.
+* Secure authorization.
+* Protection against credential sharing and reuse.
+* Locker access logging.
+* Failed access attempt monitoring.
+* Emergency access procedures.
+* Employee override with authorization and audit history.
+
+25.5 Hardware Monitoring
+
+Monitor connected locker equipment for:
+
+* Online or offline status.
+* Door status.
+* Lock status.
+* Temperature where applicable.
+* Power status.
+* Network connectivity.
+* Hardware errors.
+* Maintenance requirements.
+
+Notify authorized employees when a locker requires attention.
+
+25.6 Employee Management Console
+
+Provide employees with a centralized interface to:
+
+* View active locker assignments.
+* Monitor pickup activity.
+* Identify incomplete pickups.
+* Investigate access failures.
+* Release lockers through authorized procedures.
+* Handle customer assistance requests.
+* Review equipment alerts.
+
+25.7 Automation and Labor Efficiency
+
+Measure how automation affects dispensary operations.
+
+Track:
+
+* Number of completed automated pickups.
+* Average pickup time.
+* Employee-assisted versus self-service pickups.
+* Employee interventions.
+* Failed pickup attempts.
+* Equipment downtime.
+* Estimated employee time saved.
+
+Clearly distinguish estimated time savings from measured time savings.
+
+25.8 Multi-Vendor Hardware Compatibility
+
+Build a modular integration architecture that can support different locker manufacturers and kiosk hardware providers.
+
+Use standardized device communication interfaces where available.
+
+Avoid making BlackGrid dependent on a single hardware manufacturer.
+
+25.9 Security and Regulatory Boundaries
+
+Smart lockers are not independent authorization systems.
+
+Every regulated product handoff must follow applicable state and local requirements, including any required employee supervision, identity verification, transaction processing, and inventory tracking.
+
+BlackGrid must not bypass required POS workflows, state tracking systems, or licensee responsibilities.
+
+Any production locker integration must undergo security, operational, and regulatory validation before deployment.
+
+25.10 Owner Dashboard Integration
+
+Provide visibility into:
+
+* Active locker assignments.
+* Completed pickups.
+* Pending pickups.
+* Failed access attempts.
+* Hardware availability.
+* Equipment alerts.
+* Automated pickup volume.
+* Employee intervention rates.
+* Estimated labor savings.
