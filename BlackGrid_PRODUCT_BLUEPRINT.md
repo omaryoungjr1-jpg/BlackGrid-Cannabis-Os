@@ -1126,3 +1126,97 @@ BlackGrid must help answer:
 * Which products are tying up inventory capital?
 * Where are purchasing costs increasing?
 * Where can the business potentially save money?
+
+19. Product Profitability Intelligence
+
+19.1 Purpose
+
+BlackGrid must help dispensary owners understand the true financial performance of every product, brand, and product category.
+
+The system must look beyond sales volume and identify which products generate the strongest gross profit, which products have weak margins, and which products may be hurting overall profitability.
+
+19.2 Product-Level Financial Analysis
+
+For each product, BlackGrid should track:
+
+* Total units sold.
+* Gross sales.
+* Discounts applied.
+* Returns and refunds.
+* Net sales.
+* Recorded cost per unit.
+* Total cost of goods sold.
+* Gross profit.
+* Gross profit margin.
+* Average selling price.
+* Current inventory quantity.
+* Sales velocity.
+
+19.3 Product Profitability Classification
+
+BlackGrid should identify products using categories such as:
+
+* High Sales / High Profit: Strong-performing products worth monitoring and keeping in stock.
+* High Sales / Low Profit: Products generating revenue but producing weak profit.
+* Low Sales / High Profit: Products with strong margins but limited customer demand.
+* Low Sales / Low Profit: Products that may require pricing, promotion, purchasing, or inventory review.
+
+These classifications must be based on actual recorded data and configurable thresholds.
+
+19.4 Profit Opportunity Detection
+
+BlackGrid should identify opportunities such as:
+
+* Products with unusually low gross margins.
+* Products selling below their target margin.
+* Products receiving excessive discounts.
+* Products with rising acquisition costs.
+* Products with strong sales but weak profitability.
+* Products with declining average selling prices.
+* Products with low sales velocity and high inventory investment.
+
+Each opportunity should explain why it was identified and show the financial data supporting the recommendation.
+
+19.5 Product Comparison
+
+Owners should be able to compare:
+
+* Products within the same category.
+* Different brands.
+* Different product sizes and variations.
+* Products from different vendors.
+* Current performance against previous reporting periods.
+
+Comparisons must use consistent reporting periods and clearly identify missing or estimated cost information.
+
+19.6 Recommended Actions
+
+BlackGrid may recommend:
+
+* Reviewing product pricing.
+* Negotiating better vendor costs.
+* Reducing unnecessary discounts.
+* Adjusting future purchase quantities.
+* Evaluating promotional opportunities.
+* Reviewing products with declining demand.
+
+Recommendations must provide supporting evidence. BlackGrid must not automatically change prices, place orders, or alter regulated inventory records without authorized approval and appropriate integrations.
+
+19.7 Owner Dashboard Integration
+
+The owner dashboard should highlight:
+
+* Most profitable products.
+* Highest-revenue products.
+* Products with the weakest margins.
+* Products with declining profitability.
+* Products creating potential profit opportunities.
+* Estimated financial impact of recommended actions.
+
+Every insight must allow the owner to investigate the underlying product and transaction information.
+
+19.8 Accuracy Requirements
+
+Product profitability calculations must account for discounts, returns, product costs, and reporting periods without double counting.
+
+If product costs are missing, outdated, or estimated, the system must clearly identify the limitation rather than displaying an unsupported profit figure.
