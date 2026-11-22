@@ -8436,3 +8436,117 @@ Advanced automated billing and payment workflows can be introduced later.
 ### 77.10 Long-Term Goal
 
 BlackGrid Cannabis OS should provide a flexible subscription management system that supports sustainable SaaS revenue, controlled feature access, and future product expansion.
+
+## 78. Product Account Security and Session Management
+
+### 78.1 Purpose
+
+BlackGrid Cannabis OS should provide secure account access and session management to protect organizations, users, and business information.
+
+Account security should be treated as a core platform requirement.
+
+### 78.2 User Authentication
+
+The platform should use a secure authentication provider to manage user identity.
+
+Supported capabilities should include:
+
+- Secure account sign-in.
+- Account sign-out.
+- Password reset.
+- Email verification where appropriate.
+- Secure authentication sessions.
+- Optional multi-factor authentication.
+- Account recovery procedures.
+
+Authentication credentials should never be stored in plaintext.
+
+### 78.3 Session Management
+
+The platform should maintain secure user sessions.
+
+Requirements include:
+
+- Configurable session expiration.
+- Secure session handling.
+- Sign-out functionality.
+- Session invalidation after important account security changes.
+- Protection against unauthorized session reuse.
+- Appropriate handling of inactive sessions.
+
+### 78.4 Multi-Factor Authentication
+
+Multi-factor authentication should be supported as an additional account protection measure.
+
+The platform should consider requiring stronger authentication for sensitive administrative actions.
+
+### 78.5 Account Access Controls
+
+Account access should be governed by organization membership and assigned permissions.
+
+Requirements include:
+
+- Role-based access control.
+- Organization-level isolation.
+- Location-level permissions where applicable.
+- Controlled user invitations.
+- Account suspension and reactivation.
+- Removal of access when a user leaves an organization.
+
+### 78.6 Suspicious Activity Monitoring
+
+The platform should monitor relevant account security events.
+
+Examples include:
+
+- Repeated unsuccessful sign-in attempts.
+- Unusual authentication activity.
+- Password changes.
+- Multi-factor authentication changes.
+- New session activity.
+- Administrative permission changes.
+
+Security monitoring should avoid collecting unnecessary personal information.
+
+### 78.7 Account Security Notifications
+
+Users and authorized administrators should receive appropriate notifications about important account security events.
+
+Examples include:
+
+- Password changes.
+- Account recovery requests.
+- New authentication methods.
+- Account access changes.
+- Suspicious activity requiring review.
+
+Notifications should not expose passwords, authentication codes, or sensitive session information.
+
+### 78.8 Security Audit Records
+
+Important account events should be recorded with:
+
+- Event type.
+- Timestamp.
+- Relevant account identifier.
+- Organization reference.
+- Event outcome.
+- Appropriate administrative context.
+
+Audit records should be protected from unauthorized modification or access.
+
+### 78.9 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Secure authentication through an established provider.
+- Password recovery.
+- Role-based access.
+- Secure session handling.
+- Account suspension controls.
+- Basic account security event logging.
+- Organization-level access enforcement.
+
+### 78.10 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain strong account security practices that protect customer information, support administrative oversight, and build trust as the platform grows.
