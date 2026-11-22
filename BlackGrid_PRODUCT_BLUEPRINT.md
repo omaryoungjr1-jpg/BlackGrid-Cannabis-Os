@@ -8187,3 +8187,127 @@ Advanced delivery channels and notification automation can be introduced later.
 ### 75.10 Long-Term Goal
 
 BlackGrid Cannabis OS should provide a dependable communication experience that keeps users informed without overwhelming them with unnecessary alerts.
+
+## 76. Product Search and Navigation Experience
+
+### 76.1 Purpose
+
+BlackGrid Cannabis OS should provide an organized search and navigation experience that helps users quickly find relevant information and platform features.
+
+Search results and navigation options must respect user roles, permissions, and organization boundaries.
+
+### 76.2 Global Search
+
+The platform should support a centralized search experience for authorized information.
+
+Potential searchable categories include:
+
+- Products.
+- Vendors.
+- Business locations.
+- Reports.
+- Dashboard sections.
+- Tasks.
+- Notifications.
+- Support documentation.
+
+Additional categories may be introduced as the platform expands.
+
+### 76.3 Search Functionality
+
+Search should support:
+
+- Keyword searches.
+- Relevant result matching.
+- Search suggestions.
+- Category filtering.
+- Clear result descriptions.
+- Empty-result messages.
+- Helpful search error messages.
+
+Search results should be organized so users can quickly identify the information they need.
+
+### 76.4 Role-Based Search Permissions
+
+Search must only return information the current user is authorized to access.
+
+Requirements include:
+
+- Organization-level data isolation.
+- Location-level permissions.
+- Role-based access restrictions.
+- Backend enforcement of search permissions.
+- Protection against exposing restricted records through search suggestions or result previews.
+
+Hiding a result in the interface is not a substitute for enforcing access restrictions in the backend.
+
+### 76.5 Navigation Structure
+
+The platform should provide consistent navigation across its major sections.
+
+Navigation should reflect the user's role and responsibilities.
+
+Potential navigation areas include:
+
+- Overview.
+- Financial Intelligence.
+- Product Intelligence.
+- Inventory Intelligence.
+- Vendor Intelligence.
+- Promotions.
+- Reports.
+- Notifications.
+- Integrations.
+- Administration.
+
+The exact navigation options should depend on permissions and available subscription features.
+
+### 76.6 Search and Navigation Experience
+
+The interface should prioritize usability.
+
+Requirements include:
+
+- Clear navigation labels.
+- Consistent menu placement.
+- Visible current-page indicators.
+- Logical grouping of related features.
+- Keyboard-accessible navigation.
+- Responsive mobile navigation.
+- Clear page titles and descriptions.
+
+### 76.7 Search Performance
+
+Search functionality should remain responsive as organizations accumulate more business information.
+
+Potential improvements include:
+
+- Efficient database queries.
+- Indexed searchable fields.
+- Pagination.
+- Search result limits.
+- Appropriate caching.
+- Monitoring of slow searches.
+
+### 76.8 Search Privacy and Data Protection
+
+Search queries and results should be handled according to platform privacy and security standards.
+
+Sensitive search terms and results should not be unnecessarily exposed in application logs or analytics.
+
+### 76.9 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Clear role-based navigation.
+- Consistent sidebar structure.
+- Basic search across supported platform sections.
+- Search result permission checks.
+- Helpful empty-result messages.
+- Responsive navigation.
+
+Advanced global search and intelligent search suggestions can be introduced later.
+
+### 76.10 Long-Term Goal
+
+BlackGrid Cannabis OS should make it easy for authorized users to navigate the platform and locate relevant information as product capabilities and customer organizations grow.
