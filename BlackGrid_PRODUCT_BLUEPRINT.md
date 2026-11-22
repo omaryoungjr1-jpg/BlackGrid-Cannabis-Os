@@ -6593,3 +6593,118 @@ The initial development roadmap should prioritize:
 ### 61.9 Long-Term Goal
 
 BlackGrid Innovations should maintain a transparent, evidence-based product roadmap that supports disciplined development, customer value, responsible expansion, and sustainable product growth.
+
+## 62. Customer Account Lifecycle Management
+
+### 62.1 Purpose
+
+BlackGrid Cannabis OS should provide a structured process for managing customer accounts throughout their relationship with BlackGrid Innovations.
+
+The account lifecycle should cover initial setup, onboarding, ongoing account management, subscription changes, support, and account closure.
+
+### 62.2 Account Lifecycle Stages
+
+Customer accounts should follow a defined lifecycle:
+
+1. Prospect: An organization interested in the platform.
+2. Evaluation: The organization is reviewing a demonstration or pilot.
+3. Onboarding: An approved customer is setting up its account.
+4. Active: The customer has an operational account.
+5. At Risk: The account requires additional attention.
+6. Suspended: Access has been restricted through an authorized process.
+7. Closed: The customer relationship has ended.
+
+Each stage should have documented criteria and appropriate permissions.
+
+### 62.3 Organization Account Setup
+
+Account setup should capture appropriate business information, including:
+
+- Organization name.
+- Authorized business contact.
+- Account administrator.
+- Business locations.
+- Subscription information.
+- User assignments.
+- Approved configuration settings.
+- Relevant integration preferences.
+
+Sensitive business information should only be collected when necessary.
+
+### 62.4 Subscription and Account Changes
+
+Authorized account administrators should have a documented process for:
+
+- Subscription upgrades.
+- Subscription downgrades.
+- Billing updates through an approved provider.
+- Adding or removing authorized users.
+- Adding or updating locations.
+- Changing account settings.
+- Reviewing account status.
+
+Changes should be recorded and handled according to the customer's agreement.
+
+### 62.5 Account Health Monitoring
+
+BlackGrid should eventually monitor customer account health using appropriate indicators.
+
+Potential indicators include:
+
+- Onboarding completion.
+- Active user engagement.
+- Integration reliability.
+- Support request frequency.
+- Unresolved technical issues.
+- Customer feedback.
+- Subscription status.
+
+Account health indicators should support customer service and product improvement, not make unsupported assumptions about a customer's business.
+
+### 62.6 Customer Retention and Success
+
+BlackGrid should maintain a customer success process that includes:
+
+- Periodic account reviews.
+- Product usage education.
+- Support follow-up.
+- Feedback collection.
+- Identification of recurring problems.
+- Communication about relevant product improvements.
+
+The objective is to help customers understand and use the platform effectively.
+
+### 62.7 Account Suspension and Closure
+
+Suspension and closure procedures should protect customer information and maintain appropriate records.
+
+The process should address:
+
+- Authorization requirements.
+- Access restrictions.
+- Outstanding billing matters.
+- Data export options.
+- Data retention requirements.
+- Secure deletion where appropriate.
+- Integration credential revocation.
+- Audit history preservation.
+
+Account closure must follow applicable agreements and legal requirements.
+
+### 62.8 MVP Account Lifecycle Priorities
+
+The initial MVP should support:
+
+- Organization account creation.
+- Basic organization settings.
+- Administrator assignment.
+- User management.
+- Account status visibility.
+- Basic subscription status tracking.
+- Documented account closure procedures.
+
+Advanced customer health scoring and automated lifecycle workflows can be introduced later.
+
+### 62.9 Long-Term Goal
+
+BlackGrid Cannabis OS should support a consistent, secure, and customer-focused account lifecycle from initial evaluation through ongoing use and eventual account closure.
