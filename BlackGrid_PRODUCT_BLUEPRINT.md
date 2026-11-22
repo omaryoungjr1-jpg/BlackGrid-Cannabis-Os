@@ -4986,3 +4986,113 @@ The initial MVP validation process should include:
 - Documented validation findings
 
 The objective is to confirm that BlackGrid solves meaningful business software problems before investing heavily in advanced development.
+
+## 49. Product Release Management and Version Control
+
+### 49.1 Purpose
+
+BlackGrid Cannabis OS must use a structured release process to ensure that product updates are documented, tested, reviewed, and introduced reliably.
+
+Release management will help BlackGrid Innovations maintain product stability, protect customer data, and track how the platform changes over time.
+
+### 49.2 Version Numbering
+
+The product should use a consistent version numbering system.
+
+Recommended format:
+
+- Major version: Significant platform changes or architectural updates.
+- Minor version: New features or meaningful improvements.
+- Patch version: Bug fixes, security updates, and small corrections.
+
+Example: `1.2.3`
+
+Every release should include its version number and release date.
+
+### 49.3 Release Documentation
+
+Each release should document:
+
+- Version number and release date.
+- New features.
+- Updated functionality.
+- Bug fixes.
+- Known issues.
+- Security-related changes.
+- Database or integration changes.
+- Customer-facing changes.
+- Rollback considerations.
+
+Release notes should be understandable to both technical and nontechnical stakeholders.
+
+### 49.4 Development Environments
+
+The platform should eventually use separate environments:
+
+- Development: Active development and experimentation.
+- Testing: Validation of changes before release.
+- Staging: Final review in a production-like environment.
+- Production: The live customer-facing platform.
+
+Development and testing should use fictional or appropriately protected test data. Production customer data must not be copied into development environments without an approved security and privacy process.
+
+### 49.5 Source Control
+
+GitHub will serve as the primary source-control platform.
+
+Development practices should include:
+
+- Maintain a clear repository structure.
+- Commit changes with descriptive messages.
+- Keep important project documentation updated.
+- Review changes before merging them into the primary branch.
+- Avoid committing passwords, API keys, access tokens, or private customer information.
+- Maintain a recoverable history of approved changes.
+
+### 49.6 Release Approval
+
+Before a production release, the team should confirm:
+
+- Required functionality has been tested.
+- Critical defects have been resolved.
+- Security and access controls have been reviewed.
+- Data handling and privacy requirements have been reviewed.
+- Integrations have been tested or clearly identified as unavailable.
+- Documentation and release notes are ready.
+- Backup and recovery procedures are available.
+- Support and incident-response procedures are prepared.
+
+Production releases require an authorized approval process.
+
+### 49.7 Rollback and Recovery
+
+BlackGrid should maintain a documented process for responding to unsuccessful releases.
+
+The process should include:
+
+- Identifying the affected release.
+- Assessing customer and system impact.
+- Pausing additional deployment when necessary.
+- Restoring a previously approved application version when appropriate.
+- Recovering data through verified backup procedures when necessary.
+- Documenting the incident and corrective actions.
+
+Database changes must be handled carefully because reverting application code alone may not restore previous data structures or records.
+
+### 49.8 MVP Release Management
+
+The initial MVP should use a simple, documented release process.
+
+Initial priorities:
+
+- Keep the GitHub repository organized.
+- Use descriptive commits.
+- Maintain a working version of the prototype.
+- Test significant changes before accepting them.
+- Record known issues.
+- Keep fictional demonstration data separate from real customer information.
+- Avoid production deployment until security, privacy, and legal readiness have been reviewed.
+
+### 49.9 Long-Term Goal
+
+BlackGrid Cannabis OS should develop into a continuously maintained enterprise software platform with predictable releases, documented changes, reliable recovery procedures, and a clear history of product development.
