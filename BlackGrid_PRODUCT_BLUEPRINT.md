@@ -9258,3 +9258,119 @@ Advanced automated retention and archival workflows can be introduced later.
 ### 84.10 Long-Term Goal
 
 BlackGrid Cannabis OS should maintain responsible data lifecycle practices that protect customer information, support business continuity, and meet applicable retention and privacy obligations.
+
+## 85. Product Customer Portal and Organization Self-Service
+
+### 85.1 Purpose
+
+BlackGrid Cannabis OS should provide an organization-facing self-service experience that allows authorized customer administrators to manage appropriate account settings, users, subscriptions, and support requests.
+
+The customer portal should reduce unnecessary administrative work while maintaining security and clear access controls.
+
+### 85.2 Customer Portal Overview
+
+The portal should provide authorized organization users with access to relevant account information.
+
+Potential portal areas include:
+
+- Organization profile.
+- Business location management.
+- User management.
+- Role and permission overview.
+- Subscription information.
+- Billing history where supported.
+- Integration status.
+- Support requests.
+- Account notifications.
+- Product documentation.
+
+### 85.3 Organization Profile Management
+
+Authorized administrators should be able to review and update permitted organization information.
+
+Examples include:
+
+- Organization display name.
+- Contact information.
+- Business profile details.
+- Location information.
+- Regional preferences.
+- Account notification preferences.
+
+Changes to sensitive organization information should require appropriate authorization and audit logging.
+
+### 85.4 User Management
+
+Authorized administrators should be able to manage organization users.
+
+Potential capabilities include:
+
+- Inviting users.
+- Viewing user accounts.
+- Assigning approved roles.
+- Managing location access.
+- Suspending user access.
+- Reviewing invitation status.
+- Removing users from an organization.
+
+The portal must enforce established role and permission boundaries.
+
+### 85.5 Subscription Self-Service
+
+The customer portal should provide access to supported subscription information.
+
+Potential capabilities include:
+
+- Viewing the current plan.
+- Reviewing available features.
+- Viewing subscription status.
+- Requesting plan changes.
+- Reviewing billing information where supported.
+- Submitting cancellation requests.
+
+Subscription and billing changes should follow documented approval and provider workflows.
+
+### 85.6 Support and Help Center
+
+Customers should be able to access support resources through the portal.
+
+Potential capabilities include:
+
+- Submitting support requests.
+- Reviewing request status.
+- Accessing help documentation.
+- Viewing product announcements.
+- Reviewing relevant troubleshooting guidance.
+
+Support access should follow customer account permissions.
+
+### 85.7 Security and Account Protection
+
+The customer portal should use the platform's established security architecture.
+
+Requirements include:
+
+- Secure authentication.
+- Role-based access.
+- Organization-level data isolation.
+- Protected account settings.
+- Audit records for important changes.
+- Secure session management.
+- Appropriate confirmation for sensitive actions.
+
+### 85.8 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Organization profile viewing.
+- Basic user management.
+- Subscription status visibility.
+- Support request submission.
+- Access to basic product documentation.
+- Secure administrator permissions.
+
+Advanced customer self-service workflows can be introduced later.
+
+### 85.9 Long-Term Goal
+
+BlackGrid Cannabis OS should provide a convenient and secure customer portal that gives organizations greater control over their platform accounts while reducing administrative friction.
