@@ -8550,3 +8550,154 @@ The initial MVP should prioritize:
 ### 78.10 Long-Term Goal
 
 BlackGrid Cannabis OS should maintain strong account security practices that protect customer information, support administrative oversight, and build trust as the platform grows.
+
+## 79. Product Database Structure and Data Relationships
+
+### 79.1 Purpose
+
+BlackGrid Cannabis OS should use a structured database architecture that supports accurate business intelligence, secure organization management, reliable reporting, and future platform expansion.
+
+The database should maintain clear relationships between organizations, locations, users, business records, and connected data sources.
+
+### 79.2 Core Database Entities
+
+The platform should support structured records for:
+
+- Organizations.
+- Business locations.
+- Users.
+- Roles and permissions.
+- Subscription plans.
+- Organization subscriptions.
+- Products.
+- Vendors.
+- Sales records.
+- Inventory records.
+- Promotions.
+- Reports.
+- Notifications.
+- Integrations.
+- Audit events.
+- Import and export history.
+
+Additional entities may be introduced as product capabilities expand.
+
+### 79.3 Organization and Location Relationships
+
+The organization should serve as the primary customer account boundary.
+
+Each organization may have multiple business locations.
+
+Database relationships should ensure:
+
+- Every location belongs to an organization.
+- Users belong to authorized organizations.
+- Location access follows assigned permissions.
+- Business records are associated with the appropriate organization and location.
+- One organization's data cannot be accessed by another organization.
+
+These restrictions must be enforced through backend and database security controls.
+
+### 79.4 User and Permission Relationships
+
+The database should support structured relationships between:
+
+- Users.
+- Organizations.
+- Locations.
+- Roles.
+- Permissions.
+- Account status.
+
+The architecture should support users with access to multiple authorized locations where appropriate.
+
+### 79.5 Business Data Relationships
+
+Business records should maintain consistent relationships.
+
+Examples include:
+
+- Products associated with relevant product records.
+- Vendor records associated with applicable vendor information.
+- Sales records associated with their source and location.
+- Inventory records associated with products and locations.
+- Promotions associated with applicable product or business records.
+- Reports associated with their organization and reporting period.
+
+### 79.6 Data Integrity
+
+The database should enforce appropriate data integrity standards.
+
+Requirements include:
+
+- Primary keys.
+- Foreign key relationships.
+- Required field validation.
+- Appropriate uniqueness constraints.
+- Consistent data types.
+- Controlled record updates.
+- Appropriate deletion and retention policies.
+- Protection against duplicate records.
+
+Important business records should maintain traceability to their source.
+
+### 79.7 Data Relationships and Reporting
+
+The database should support reliable reporting across related business information.
+
+Reporting should be able to distinguish:
+
+- Organization-level information.
+- Location-level information.
+- Individual product performance.
+- Vendor-related information.
+- Time-based business performance.
+- Source-system information.
+
+Financial calculations must remain consistent with the definitions established in Section 18.
+
+### 79.8 Database Security
+
+Database security should include:
+
+- Organization-level data isolation.
+- Row-level security where appropriate.
+- Least-privilege access.
+- Secure authentication.
+- Protected database credentials.
+- Controlled administrative access.
+- Audit logging.
+- Backup and recovery procedures.
+
+Frontend visibility restrictions alone are not sufficient.
+
+### 79.9 Database Documentation
+
+The technical documentation should maintain:
+
+- Database entity definitions.
+- Table and field descriptions.
+- Relationship documentation.
+- Data type definitions.
+- Required field rules.
+- Security policies.
+- Database migration history.
+
+Changes should be reviewed and documented before deployment.
+
+### 79.10 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Organization and location structure.
+- User and role relationships.
+- Core business data entities.
+- Consistent identifiers.
+- Secure organization-level data isolation.
+- Data integrity constraints.
+- Basic database documentation.
+- Fictional demonstration records.
+
+### 79.11 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain a reliable, secure, and scalable database foundation that supports advanced business intelligence, multi-location organizations, authorized integrations, and future product capabilities.
