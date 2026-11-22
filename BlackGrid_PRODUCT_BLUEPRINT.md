@@ -9033,3 +9033,112 @@ Advanced customer-specific release controls can be introduced later.
 ### 82.9 Long-Term Goal
 
 BlackGrid Cannabis OS should support controlled product innovation through feature releases that reduce deployment risk and allow new capabilities to be introduced responsibly.
+
+## 83. Product User Activity and Audit Trail Management
+
+### 83.1 Purpose
+
+BlackGrid Cannabis OS should maintain reliable records of important user and system activities.
+
+Activity records should support security monitoring, accountability, troubleshooting, administrative oversight, and business record traceability.
+
+### 83.2 Activity Categories
+
+The platform should record appropriate events, including:
+
+- User sign-ins and sign-outs.
+- Account creation and suspension.
+- Role and permission changes.
+- Organization configuration changes.
+- Location configuration changes.
+- Important report exports.
+- Data imports.
+- Integration configuration changes.
+- Subscription changes.
+- Administrative actions.
+- Security-related events.
+
+### 83.3 Audit Record Information
+
+Each audit record should include relevant information such as:
+
+- Event identifier.
+- Event category.
+- User or system actor.
+- Organization reference.
+- Relevant location reference.
+- Date and timestamp.
+- Action performed.
+- Affected record reference where appropriate.
+- Operation outcome.
+- Additional non-sensitive context.
+
+### 83.4 Audit Record Security
+
+Audit records should be protected against unauthorized access or modification.
+
+Requirements include:
+
+- Restricted access.
+- Appropriate database protections.
+- Organization-level data isolation.
+- Secure retention.
+- Protection of sensitive information.
+- Monitoring of audit system failures.
+
+Ordinary users should not be able to alter their own audit history.
+
+### 83.5 Audit Search and Reporting
+
+Authorized administrators should be able to review relevant audit information.
+
+Potential capabilities include:
+
+- Filtering by date.
+- Filtering by user.
+- Filtering by event category.
+- Filtering by location.
+- Reviewing important configuration changes.
+- Exporting authorized audit summaries.
+
+Search results and exports must respect organization and role permissions.
+
+### 83.6 Privacy and Data Minimization
+
+The audit system should record information necessary for accountability without collecting unnecessary personal or sensitive data.
+
+Passwords, authentication tokens, and other secrets must never be written into ordinary audit records.
+
+### 83.7 Audit Retention
+
+Audit retention periods should be defined through documented business, contractual, security, and applicable legal requirements.
+
+The platform should support controlled retention and deletion processes where permitted.
+
+### 83.8 Audit Monitoring
+
+The platform should identify important audit system problems, including:
+
+- Failed event recording.
+- Unusual administrative activity.
+- Repeated permission changes.
+- Unexpected access patterns.
+- Audit storage or processing failures.
+
+Significant issues should be available for authorized internal review.
+
+### 83.9 MVP Priorities
+
+The initial MVP should prioritize:
+
+- User authentication event records.
+- Role and permission change records.
+- Organization configuration history.
+- Import and export activity records.
+- Administrative action logging.
+- Restricted audit access.
+- Basic audit search.
+
+### 83.10 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain a dependable activity and audit trail system that supports transparency, accountability, security, and responsible platform administration.
