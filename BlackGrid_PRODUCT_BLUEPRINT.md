@@ -7171,3 +7171,120 @@ The initial MVP should prioritize:
 ### 66.10 Long-Term Goal
 
 BlackGrid Innovations should maintain a dependable backup and disaster recovery program that protects customer information, supports service restoration, and strengthens business continuity as the platform grows.
+
+## 67. Product Testing Automation and Continuous Integration
+
+### 67.1 Purpose
+
+BlackGrid Cannabis OS should use automated testing and continuous integration practices to improve software quality, identify defects early, and reduce the risk of introducing problems during development.
+
+### 67.2 Automated Testing Strategy
+
+The platform should eventually include several testing levels:
+
+- **Unit testing:** Validates individual functions and calculations.
+- **Integration testing:** Checks communication between application components.
+- **Component testing:** Validates reusable interface components.
+- **End-to-end testing:** Tests complete user workflows.
+- **Security testing:** Evaluates authentication, permissions, and data protection.
+- **Performance testing:** Evaluates application responsiveness and stability.
+
+### 67.3 Critical Business Logic Testing
+
+BlackGrid should prioritize automated tests for important business calculations and workflows.
+
+Examples include:
+
+- Net sales calculations.
+- Cost of goods sold.
+- Gross profit.
+- Gross margin.
+- Product profitability.
+- Inventory valuation.
+- Date-range filtering.
+- Location-level reporting.
+- Duplicate record prevention.
+- Organization-level data separation.
+
+Expected results should be documented and compared against test results.
+
+### 67.4 Continuous Integration
+
+The development process should eventually use continuous integration workflows.
+
+Potential capabilities include:
+
+- Automated code checks.
+- TypeScript validation.
+- Linting.
+- Automated test execution.
+- Build verification.
+- Dependency checks.
+- Security-related checks.
+- Test result reporting.
+
+Changes should be reviewed before being merged into the primary development branch.
+
+### 67.5 Testing Environments
+
+Automated tests should run in controlled environments.
+
+Requirements include:
+
+- Fictional test data.
+- Separate test databases.
+- Documented test configurations.
+- Repeatable test procedures.
+- No unnecessary exposure of customer information.
+- Appropriate cleanup of test records.
+
+### 67.6 Test Coverage and Quality Standards
+
+Testing should focus first on areas where defects could cause significant problems.
+
+Priority areas include:
+
+- Authentication.
+- Role-based access.
+- Organization isolation.
+- Financial calculations.
+- Data synchronization.
+- Reporting.
+- Account management.
+- Security-sensitive workflows.
+
+Test coverage should be measured, but a high percentage alone should not be treated as proof of software quality.
+
+### 67.7 Defect Management
+
+When automated or manual testing identifies an issue, it should be documented with:
+
+- Issue description.
+- Steps to reproduce.
+- Expected result.
+- Actual result.
+- Severity.
+- Affected feature.
+- Resolution status.
+- Retesting outcome.
+
+Critical issues should be resolved before the affected functionality is released.
+
+### 67.8 MVP Testing Priorities
+
+The initial MVP should prioritize:
+
+- Financial calculation tests.
+- Basic user authentication tests.
+- Permission checks.
+- Organization data isolation tests.
+- Dashboard loading and display tests.
+- Data validation tests.
+- Build verification.
+- Manual review of important workflows.
+
+Advanced test automation can be introduced as the application becomes more complex.
+
+### 67.9 Long-Term Goal
+
+BlackGrid Cannabis OS should establish a dependable automated testing and continuous integration process that supports faster development, reliable releases, and consistent software quality.
