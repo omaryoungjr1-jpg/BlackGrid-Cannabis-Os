@@ -7619,3 +7619,92 @@ Advanced feedback analytics and customer-facing request portals can be introduce
 ### 70.10 Long-Term Goal
 
 BlackGrid Cannabis OS should use structured customer feedback to guide continuous improvement while maintaining control over product quality, development priorities, and release commitments.
+
+## 71. Product Localization and Internationalization
+
+### 71.1 Purpose
+
+BlackGrid Cannabis OS should be designed to support different languages, regional settings, currencies, date formats, and measurement systems as the business expands.
+
+The initial product will focus on Michigan, with an architecture that can support additional regions in the future.
+
+### 71.2 Language Support
+
+The platform should be designed so that interface text can be translated without rebuilding application functionality.
+
+Future capabilities may include:
+
+- Multiple interface languages.
+- Language preferences by user.
+- Consistent terminology across the platform.
+- Translation-ready notifications.
+- Localized help documentation.
+- Accessible language selection.
+
+### 71.3 Regional Formatting
+
+The platform should support configurable regional formats, including:
+
+- Date formats.
+- Time formats.
+- Time zones.
+- Number formatting.
+- Currency display.
+- Measurement units.
+
+Dates and times should be stored consistently and displayed according to the user's applicable settings.
+
+### 71.4 Currency Support
+
+The financial architecture should support additional currencies if the platform expands into new markets.
+
+Requirements include:
+
+- Currency codes associated with financial records.
+- Consistent currency formatting.
+- Clear distinction between original and converted amounts.
+- Documented exchange-rate sources if conversion is introduced.
+- No mixing of different currencies in financial totals without an explicitly defined conversion method.
+
+### 71.5 Regional Business Configuration
+
+Organizations should be able to maintain appropriate regional settings.
+
+Configuration may include:
+
+- Business location.
+- Regional time zone.
+- Currency.
+- Language preferences.
+- Date and number formats.
+- Applicable jurisdiction settings.
+
+Regional configuration must not replace jurisdiction-specific legal or regulatory review.
+
+### 71.6 Multi-Region Architecture
+
+The platform should avoid hardcoding assumptions that prevent future regional expansion.
+
+Architecture should support:
+
+- Configurable regional settings.
+- Modular localization resources.
+- Region-aware reporting.
+- Appropriate data handling requirements.
+- Separate jurisdiction-specific configurations where necessary.
+
+### 71.7 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Michigan-based regional configuration.
+- Correct time-zone handling.
+- Consistent date and number formatting.
+- A clearly defined currency setting.
+- Architecture that can support additional languages and regions later.
+
+International language support and currency conversion are not required for the initial MVP.
+
+### 71.8 Long-Term Goal
+
+BlackGrid Cannabis OS should be capable of expanding into additional U.S. markets and, where legally and commercially appropriate, international markets without requiring a complete redesign of its core architecture.
