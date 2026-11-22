@@ -3374,19 +3374,26 @@ Organization-level data isolation must be enforced through database policies and
 
 ### 36.5 Recommended Initial Technology
 
-The initial prototype may use the following technology:
+### Current Application Technology Stack
 
-- Frontend: React with TypeScript
-- Application tooling: Vite
-- Styling: Tailwind CSS
-- UI components: reusable accessible component library
-- Backend services: Supabase
-- Database: PostgreSQL
-- Authentication: Supabase Auth
-- Source control: GitHub
-- Initial interface development: Lovable
+The current BlackGrid Cannabis OS prototype uses the following technology stack:
 
-Technology choices should be reviewed as the application grows.
+- **Application framework:** TanStack Start
+- **Frontend:** React 19
+- **Language:** TypeScript
+- **Development and build tooling:** Vite 8
+- **Routing:** TanStack Router
+- **Server and application architecture:** TanStack Start
+- **Database and backend services:** Supabase
+- **Database client:** Supabase JavaScript client (`@supabase/supabase-js`)
+- **Styling:** Tailwind CSS 4
+- **UI components:** Radix UI and supporting React component libraries
+- **Testing:** Vitest and React Testing Library
+- **Code quality:** ESLint and Prettier
+
+This stack reflects the current Lovable-generated prototype. Future architecture changes must be documented and evaluated before implementation.
+
+The prototype's current technology choices do not, by themselves, establish production readiness, security compliance, or regulatory compliance.
 
 ### 36.6 Application Architecture
 
