@@ -9980,3 +9980,139 @@ Public developer access, third-party API credentials, and production webhooks ar
 ### 90.13 Long-Term Goal
 
 BlackGrid Cannabis OS should develop a secure, documented, and maintainable API ecosystem that supports approved integrations, future partners, and platform expansion without compromising customer privacy, data integrity, or system reliability.
+
+## 91. Product Observability and System Telemetry
+
+### 91.1 Purpose
+
+BlackGrid Cannabis OS should provide a unified observability system that helps the company understand platform health, identify technical problems, investigate failures, and improve reliability.
+
+Observability should provide visibility into application behavior without unnecessarily collecting or exposing sensitive customer information.
+
+### 91.2 Observability Components
+
+The platform should support three primary observability components:
+
+- **Logs:** Records of application events, errors, and system activity.
+- **Metrics:** Numerical measurements of system health, performance, and resource usage.
+- **Traces:** Records that help follow a request as it moves through different platform components.
+
+These components should work together to help administrators investigate problems.
+
+### 91.3 Application Logging
+
+Application logs should capture important system events, including:
+
+- Application startup and shutdown.
+- Authentication and authorization events.
+- Failed requests.
+- Database errors.
+- Import and synchronization failures.
+- Background task failures.
+- Integration connection problems.
+- Administrative configuration changes.
+
+Logs should use consistent timestamps, severity levels, and event categories.
+
+### 91.4 System Metrics
+
+The platform should monitor relevant technical measurements, including:
+
+- Application availability.
+- API response times.
+- Database response times.
+- Error rates.
+- Background task completion.
+- Integration health.
+- Resource utilization.
+- Request volume.
+- Failed authentication attempts.
+
+Metrics should help identify unusual patterns and developing reliability problems.
+
+### 91.5 Distributed Request Tracing
+
+The platform should support request correlation across application components.
+
+Where appropriate, requests should receive unique correlation identifiers that help connect related logs, metrics, and traces.
+
+Sensitive information should not be included in trace identifiers or diagnostic metadata.
+
+### 91.6 Alerting and Escalation
+
+Observability alerts should identify problems requiring attention.
+
+Alert categories may include:
+
+- Critical service outage.
+- Elevated application error rate.
+- Database connectivity failure.
+- Integration synchronization failure.
+- Unusual resource consumption.
+- Repeated authentication failures.
+- Background processing delays.
+
+Alerts should have clear severity levels, ownership, and resolution status.
+
+### 91.7 Privacy and Data Protection
+
+Telemetry must follow the platform's security and privacy requirements.
+
+Requirements include:
+
+- Avoid logging passwords, API keys, or authentication tokens.
+- Minimize personally identifiable information in diagnostic records.
+- Restrict access to logs and monitoring dashboards.
+- Apply appropriate retention policies.
+- Protect telemetry during transmission and storage.
+- Review monitoring tools before connecting customer environments.
+
+### 91.8 Monitoring Dashboard
+
+Authorized administrators should have access to a system health dashboard showing:
+
+- Overall platform status.
+- Application availability.
+- Database health.
+- API performance.
+- Background task status.
+- Integration health.
+- Recent system errors.
+- Active incidents.
+
+The dashboard should distinguish technical platform issues from customer business-performance alerts.
+
+### 91.9 Incident Investigation
+
+Observability information should support a consistent incident investigation process.
+
+The process should include:
+
+- Identifying the affected service.
+- Reviewing related logs and metrics.
+- Using correlation identifiers where available.
+- Determining the scope of impact.
+- Recording findings.
+- Tracking corrective actions.
+- Confirming service recovery.
+
+Access to customer data during investigations must remain restricted and authorized.
+
+### 91.10 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Application error logging.
+- Basic availability monitoring.
+- Database health visibility.
+- API error tracking.
+- Integration status monitoring.
+- Background task failure visibility.
+- Basic administrative health dashboard.
+- Secure diagnostic access.
+
+Advanced distributed tracing and centralized telemetry analytics can be introduced as the platform grows.
+
+### 91.11 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain a reliable observability foundation that helps BlackGrid Innovations detect problems early, investigate incidents efficiently, protect customer information, and continuously improve platform performance.
