@@ -11194,3 +11194,149 @@ The initial MVP should prioritize:
 ### 98.11 Long-Term Goal
 
 BlackGrid Cannabis OS should provide dependable financial data integrity controls that make business intelligence accurate, traceable, explainable, and useful for informed business decisions.
+
+## 99. Product Customer Success and Account Health Intelligence
+
+### 99.1 Purpose
+
+BlackGrid Cannabis OS should provide BlackGrid Innovations with tools to understand customer experience, identify organizations that may need assistance, and improve long-term customer relationships.
+
+Customer account health should combine relevant product usage, platform reliability, support activity, and customer feedback.
+
+### 99.2 Customer Account Health Indicators
+
+The platform may evaluate account health using indicators such as:
+
+- Recent platform activity.
+- User adoption.
+- Feature utilization.
+- Integration reliability.
+- Support request volume.
+- Unresolved technical issues.
+- Customer feedback.
+- Onboarding progress.
+- Subscription status.
+
+Account health indicators should support customer assistance rather than make unsupported assumptions about a customer's business performance.
+
+### 99.3 Account Health Categories
+
+Suggested account health categories include:
+
+- Healthy.
+- Needs attention.
+- At risk.
+- Onboarding.
+- Inactive.
+- Under review.
+
+Each category should have documented criteria and should be explainable to authorized internal users.
+
+### 99.4 Customer Engagement Monitoring
+
+The company should monitor appropriate engagement indicators to understand whether customers are successfully using the platform.
+
+Potential measurements include:
+
+- Active organization users.
+- Dashboard usage.
+- Report usage.
+- Feature adoption.
+- Onboarding completion.
+- Help-center activity.
+- Support interactions.
+
+Monitoring should respect customer privacy and applicable data protection requirements.
+
+### 99.5 Customer Support Coordination
+
+Customer health information should help support teams understand open customer issues.
+
+The platform should support:
+
+- Linking support requests to organizations.
+- Tracking unresolved issues.
+- Identifying recurring problems.
+- Recording customer communication.
+- Tracking issue resolution.
+- Escalating important concerns.
+
+Access to customer support information should be restricted to authorized personnel.
+
+### 99.6 Customer Success Activities
+
+BlackGrid Innovations should establish a repeatable customer success process.
+
+Activities may include:
+
+- Onboarding assistance.
+- Product education.
+- Usage reviews.
+- Technical check-ins.
+- Feedback collection.
+- Feature adoption guidance.
+- Renewal preparation.
+- Issue follow-up.
+
+Customer success activity should be documented where appropriate.
+
+### 99.7 Customer Feedback and Satisfaction
+
+The platform should support structured customer feedback.
+
+Potential methods include:
+
+- Feedback forms.
+- Customer surveys.
+- Support follow-ups.
+- Product interviews.
+- Feature request submissions.
+- Customer review meetings.
+
+Feedback should be categorized and reviewed for recurring themes and improvement opportunities.
+
+### 99.8 Retention and Renewal Intelligence
+
+The company may use account health information to identify customers who could benefit from additional support before renewal.
+
+Potential indicators include:
+
+- Declining product engagement.
+- Repeated unresolved issues.
+- Incomplete onboarding.
+- Low feature adoption.
+- Negative customer feedback.
+- Upcoming renewal dates.
+
+These indicators should guide appropriate human review rather than automatically determine account outcomes.
+
+### 99.9 Privacy and Access Controls
+
+Customer success information should be protected.
+
+Requirements include:
+
+- Restricted internal access.
+- Organization-level data separation.
+- Appropriate data retention.
+- Limited collection of personal information.
+- Auditable access to sensitive records.
+- Clear separation between internal customer success notes and customer-visible information.
+
+### 99.10 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Basic organization account status.
+- Onboarding progress visibility.
+- Support request tracking.
+- Basic usage indicators.
+- Customer feedback collection.
+- Manual account health review.
+- Internal customer notes with restricted access.
+
+Advanced health scoring and automated renewal intelligence can be introduced later.
+
+### 99.11 Long-Term Goal
+
+BlackGrid Innovations should build a customer success framework that improves onboarding, strengthens customer relationships, increases product adoption, and supports sustainable long-term growth for BlackGrid Cannabis OS.
