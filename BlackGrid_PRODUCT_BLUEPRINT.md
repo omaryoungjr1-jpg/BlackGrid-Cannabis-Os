@@ -8701,3 +8701,129 @@ The initial MVP should prioritize:
 ### 79.11 Long-Term Goal
 
 BlackGrid Cannabis OS should maintain a reliable, secure, and scalable database foundation that supports advanced business intelligence, multi-location organizations, authorized integrations, and future product capabilities.
+
+## 80. Product System Architecture and Service Boundaries
+
+### 80.1 Purpose
+
+BlackGrid Cannabis OS should use a modular system architecture that separates major platform responsibilities while allowing services and features to work together.
+
+The architecture should support maintainability, security, scalability, and future product expansion.
+
+### 80.2 Core Platform Layers
+
+The platform should organize its architecture into major layers:
+
+- Presentation Layer: User interfaces, dashboards, navigation, and user interactions.
+- Application Layer: Business workflows, permissions, and application logic.
+- Data Layer: Database records, relationships, validation, and persistence.
+- Integration Layer: Authorized external provider connections and data exchange.
+- Monitoring Layer: Application health, errors, performance, and audit visibility.
+
+Each layer should have clearly defined responsibilities.
+
+### 80.3 Core Platform Modules
+
+Major platform capabilities should be organized into modules, including:
+
+- Authentication and Account Management.
+- Organization and Location Management.
+- Role and Permission Management.
+- Financial Intelligence.
+- Product Intelligence.
+- Inventory Intelligence.
+- Vendor Intelligence.
+- Promotion Intelligence.
+- Reporting and Analytics.
+- Notifications.
+- Integration Management.
+- Subscription Management.
+- Administration and Monitoring.
+
+Modules should be designed to minimize unnecessary dependencies on unrelated functionality.
+
+### 80.4 Service Boundaries
+
+Each module should have defined responsibilities and controlled access to shared information.
+
+Requirements include:
+
+- Clear ownership of business logic.
+- Defined inputs and outputs.
+- Consistent validation rules.
+- Controlled database access.
+- Reusable shared services where appropriate.
+- Documented dependencies.
+- Appropriate error handling.
+
+Modules should not bypass established security or data governance controls.
+
+### 80.5 Communication Between Modules
+
+Internal modules should communicate through documented interfaces and approved application services.
+
+The architecture should support:
+
+- Consistent request and response structures.
+- Validated data exchange.
+- Appropriate authorization checks.
+- Error handling.
+- Logging and monitoring.
+- Controlled background processing where appropriate.
+
+### 80.6 Security Across Architecture
+
+Security controls should apply throughout the platform.
+
+Requirements include:
+
+- Centralized authentication.
+- Consistent authorization.
+- Organization-level data isolation.
+- Secure handling of credentials.
+- Protected integration connections.
+- Auditable administrative actions.
+- Validated inputs.
+- Least-privilege access.
+
+No module should be able to bypass organization or role restrictions.
+
+### 80.7 Integration Architecture
+
+External integrations should connect through a controlled integration layer.
+
+The integration architecture should support:
+
+- Provider-specific connectors.
+- Standardized data mapping.
+- Connection status monitoring.
+- Error reporting.
+- Duplicate prevention.
+- Source identification.
+- Authorized data exchange.
+
+Only officially supported and authorized provider connections should be used.
+
+### 80.8 Architecture Evolution
+
+The platform should begin with a practical modular application architecture rather than introducing unnecessary infrastructure complexity.
+
+As usage and technical requirements grow, individual services may be separated when there is a clear operational or performance benefit.
+
+Architecture decisions should be documented and reviewed.
+
+### 80.9 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Clear separation of frontend and backend responsibilities.
+- Reusable application modules.
+- Centralized authentication and authorization.
+- Consistent database access patterns.
+- A controlled integration layer.
+- Basic application monitoring.
+- Technical architecture documentation.
+
+### 80.10 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain a modular, secure, and adaptable architecture that supports additional products, customers, integrations, locations, and future platform capabilities without requiring unnecessary redesign.
