@@ -5491,3 +5491,136 @@ The initial MVP should prioritize:
 ### 52.10 Long-Term Goal
 
 BlackGrid Cannabis OS should establish dependable data governance standards that support trustworthy reporting, reliable business intelligence, secure customer information, and future platform expansion.
+
+## 53. Business Intelligence Dashboard Customization
+
+### 53.1 Purpose
+
+BlackGrid Cannabis OS should allow authorized users to customize their dashboard experience based on their responsibilities, priorities, and business needs.
+
+Customization should make important information easier to understand without compromising data accuracy, security, or consistency.
+
+### 53.2 Role-Based Dashboard Layouts
+
+The platform should provide different dashboard experiences for each role.
+
+**Owner Dashboard**
+- Business performance overview.
+- Revenue and profitability indicators.
+- Product performance.
+- Inventory value and trends.
+- Location comparisons.
+- Important business alerts.
+
+**Manager Dashboard**
+- Daily operational overview.
+- Inventory status.
+- Product performance.
+- Assigned tasks.
+- Relevant alerts.
+- Location-specific reporting.
+
+**Employee Dashboard**
+- Assigned tasks.
+- Authorized operational information.
+- Relevant notifications.
+- Limited access to business information.
+
+**Administrator Dashboard**
+- User and role management.
+- Organization settings.
+- Integration status.
+- System health.
+- Audit history.
+
+### 53.3 Customizable Dashboard Widgets
+
+Users with appropriate permissions should be able to arrange available dashboard widgets.
+
+Potential widgets include:
+
+- Sales overview.
+- Gross profit and margin.
+- Product profitability.
+- Inventory status.
+- Slow-moving inventory indicators.
+- Vendor performance.
+- Promotion performance.
+- Location comparisons.
+- Integration health.
+- Recent alerts.
+- Reporting shortcuts.
+
+Widgets should display information only when the user has permission to access the underlying data.
+
+### 53.4 Date and Location Filters
+
+Dashboards should support relevant filters, including:
+
+- Today.
+- Yesterday.
+- Last seven days.
+- Last 30 days.
+- Custom date range.
+- Individual location.
+- Multiple authorized locations.
+- Entire organization, where permitted.
+
+Filters should apply consistently to related dashboard metrics.
+
+### 53.5 Dashboard Preferences
+
+The platform should eventually allow users to save preferences such as:
+
+- Widget arrangement.
+- Default date range.
+- Preferred location.
+- Display density.
+- Available dashboard sections.
+- Notification visibility.
+
+Users should be able to restore the default dashboard layout.
+
+### 53.6 Metric Consistency
+
+Customization must not change the underlying definition of financial or operational metrics.
+
+For example:
+
+- Revenue calculations must follow Section 18.
+- Product profitability must follow Section 19.
+- Inventory metrics must follow Section 20.
+- Data quality indicators must follow Section 52.
+
+The same metric should produce consistent results across dashboards and reports when the same filters and data are used.
+
+### 53.7 User Experience and Accessibility
+
+Dashboard customization should remain easy to understand.
+
+The interface should:
+
+- Use clear widget titles.
+- Provide explanations for unfamiliar metrics.
+- Display loading and error states.
+- Support accessible contrast and readable text.
+- Avoid relying on color alone.
+- Work across desktop and tablet screen sizes.
+- Prevent users from hiding critical system or security alerts.
+
+### 53.8 MVP Customization Priorities
+
+The initial MVP should include:
+
+- Role-based dashboard layouts.
+- A defined set of core widgets.
+- Date and location filters where supported.
+- Consistent financial metrics.
+- Responsive dashboard design.
+- Appropriate permission checks.
+
+Advanced drag-and-drop layouts and extensive personal preferences can be introduced in later releases.
+
+### 53.9 Long-Term Goal
+
+BlackGrid Cannabis OS should provide flexible, role-aware dashboards that help each authorized user understand the information most relevant to their responsibilities while preserving consistent reporting standards and secure access controls.
