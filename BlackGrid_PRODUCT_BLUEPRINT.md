@@ -9374,3 +9374,102 @@ Advanced customer self-service workflows can be introduced later.
 ### 85.9 Long-Term Goal
 
 BlackGrid Cannabis OS should provide a convenient and secure customer portal that gives organizations greater control over their platform accounts while reducing administrative friction.
+
+## 86. Product Release Notes and Customer Communications
+
+### 86.1 Purpose
+
+BlackGrid Cannabis OS should maintain a consistent process for communicating product updates, improvements, maintenance events, and important platform changes.
+
+Clear communication should help customers understand what has changed and how updates may affect their experience.
+
+### 86.2 Release Notes
+
+Each significant product release should have documented release notes.
+
+Release notes should include:
+
+- Release version.
+- Release date.
+- New features.
+- Improved functionality.
+- Bug fixes.
+- Security improvements where appropriate.
+- Known limitations.
+- Relevant customer actions, if any.
+
+Release notes should use clear language that both technical and nontechnical customers can understand.
+
+### 86.3 Release Categories
+
+Product updates should be organized into categories such as:
+
+- New Features.
+- Feature Improvements.
+- Bug Fixes.
+- Performance Improvements.
+- Security Updates.
+- Maintenance Updates.
+- Technical Changes.
+
+### 86.4 Customer Communication Channels
+
+The platform should support appropriate communication methods, including:
+
+- In-app announcements.
+- Customer email notifications.
+- Product update pages.
+- Help center announcements.
+- Direct communication for significant customer-impacting changes.
+
+Communication methods should respect customer preferences and applicable privacy requirements.
+
+### 86.5 Planned Maintenance Notifications
+
+Customers should receive appropriate notice about planned maintenance when it may affect platform availability.
+
+Maintenance communications should explain:
+
+- Expected maintenance window.
+- Potential service impact.
+- Affected functionality.
+- Expected restoration information.
+- Where to find updates.
+
+Unexpected service interruptions should be communicated through the established incident communication process.
+
+### 86.6 Customer Impact Assessment
+
+Before communicating a release, the product team should identify:
+
+- Which customers may be affected.
+- Which features have changed.
+- Whether user workflows are affected.
+- Whether configuration changes are required.
+- Whether additional documentation is needed.
+
+Important changes should be clearly explained before customers encounter them whenever practical.
+
+### 86.7 Communication Accuracy
+
+Product announcements must accurately describe released functionality.
+
+The company should not advertise planned or experimental capabilities as completed features.
+
+Security communications should avoid disclosing sensitive technical details that could create additional risk.
+
+### 86.8 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Basic release notes.
+- Version and release date tracking.
+- In-app product announcements.
+- Documentation of important changes.
+- Customer notification for significant service updates.
+
+Advanced communication preferences and automated release announcements can be introduced later.
+
+### 86.9 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain transparent and dependable customer communication that builds trust and keeps organizations informed as the platform evolves.
