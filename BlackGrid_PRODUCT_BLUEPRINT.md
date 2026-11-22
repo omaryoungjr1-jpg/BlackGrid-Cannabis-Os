@@ -6478,3 +6478,118 @@ Avoid collecting unnecessary personal or sensitive information.
 ### 60.10 Long-Term Goal
 
 BlackGrid Innovations should establish a consistent measurement system that connects product quality, customer value, platform reliability, and company performance to informed development decisions and sustainable growth.
+
+## 61. Product Roadmap Governance and Feature Prioritization
+
+### 61.1 Purpose
+
+BlackGrid Innovations should maintain a structured product roadmap to guide the development of BlackGrid Cannabis OS.
+
+Roadmap governance will help ensure that development priorities support customer needs, product quality, business objectives, and available resources.
+
+### 61.2 Roadmap Structure
+
+The product roadmap should organize work into three categories:
+
+**Now**
+- Features currently being developed.
+- Important defects being addressed.
+- Immediate MVP requirements.
+
+**Next**
+- Features planned for the next development cycle.
+- Improvements supported by customer feedback.
+- Important technical improvements.
+
+**Future**
+- Long-term capabilities.
+- Advanced automation.
+- Predictive analytics.
+- Expanded integrations.
+- Additional enterprise functionality.
+
+Roadmap categories should be updated as priorities change.
+
+### 61.3 Feature Request Management
+
+Feature requests may originate from:
+
+- Customer feedback.
+- Product demonstrations.
+- Pilot evaluations.
+- Internal product reviews.
+- Technical discoveries.
+- Competitive research.
+- Security and reliability requirements.
+
+Each request should be documented with its purpose, expected value, complexity, and relevant dependencies.
+
+### 61.4 Feature Prioritization Criteria
+
+Features should be evaluated using:
+
+- Customer value.
+- Business impact.
+- Development effort.
+- Technical complexity.
+- Security implications.
+- Regulatory considerations.
+- Infrastructure cost.
+- Dependencies on other features.
+- Alignment with the product vision.
+
+High-impact foundational work may take priority over visible new features.
+
+### 61.5 Roadmap Decision Process
+
+Before accepting a significant feature into the roadmap:
+
+1. Document the problem being addressed.
+2. Identify the intended users.
+3. Define the expected outcome.
+4. Evaluate technical feasibility.
+5. Identify risks and dependencies.
+6. Estimate development effort.
+7. Assign a priority.
+8. Record the decision.
+9. Define completion criteria.
+
+Significant changes should be documented so development decisions remain understandable over time.
+
+### 61.6 Scope Management
+
+BlackGrid should protect the MVP from unnecessary feature expansion.
+
+New feature requests should be evaluated against the current MVP objectives.
+
+Features that are not essential to the initial product may be placed in the future roadmap rather than delaying core functionality.
+
+### 61.7 Roadmap Communication
+
+The roadmap should distinguish between:
+
+- Currently available functionality.
+- Work actively in development.
+- Planned improvements.
+- Long-term concepts.
+- Features that have not been approved.
+
+Planned features must not be presented as completed or guaranteed capabilities.
+
+### 61.8 MVP Roadmap Priorities
+
+The initial development roadmap should prioritize:
+
+- Core dashboard functionality.
+- Financial intelligence accuracy.
+- Product profitability.
+- Inventory intelligence.
+- Secure user access.
+- Organization and location separation.
+- Reliable data structures.
+- Testing and error handling.
+- A functional demonstration environment.
+
+### 61.9 Long-Term Goal
+
+BlackGrid Innovations should maintain a transparent, evidence-based product roadmap that supports disciplined development, customer value, responsible expansion, and sustainable product growth.
