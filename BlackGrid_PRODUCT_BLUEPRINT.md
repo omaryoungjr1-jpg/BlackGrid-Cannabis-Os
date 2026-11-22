@@ -8311,3 +8311,128 @@ Advanced global search and intelligent search suggestions can be introduced late
 ### 76.10 Long-Term Goal
 
 BlackGrid Cannabis OS should make it easy for authorized users to navigate the platform and locate relevant information as product capabilities and customer organizations grow.
+
+## 77. Product Subscription and Feature Entitlement Management
+
+### 77.1 Purpose
+
+BlackGrid Cannabis OS should provide a structured subscription and feature entitlement system that controls access to platform capabilities according to each organization's approved subscription.
+
+The system should support flexible subscription plans while maintaining consistent account permissions and billing records.
+
+### 77.2 Subscription Plans
+
+The platform should support configurable subscription tiers, including:
+
+- Starter.
+- Professional.
+- Enterprise.
+
+Each plan should have clearly documented features, limits, and eligibility requirements.
+
+Plan details should be configurable without requiring major application changes.
+
+### 77.3 Feature Entitlements
+
+Feature entitlements determine which platform capabilities an organization can access.
+
+Potential entitlements include:
+
+- Dashboard capabilities.
+- Financial intelligence.
+- Product profitability reporting.
+- Inventory intelligence.
+- Vendor intelligence.
+- Promotion analytics.
+- Advanced reporting.
+- Multi-location management.
+- Integration capabilities.
+- Administrative tools.
+
+Entitlements should be enforced by the backend, not only hidden in the user interface.
+
+### 77.4 Subscription Limits
+
+Plans may include configurable limits such as:
+
+- Number of locations.
+- Number of authorized users.
+- Reporting capabilities.
+- Data retention options.
+- Available integrations.
+- Support level.
+- Advanced analytics features.
+
+Limits should be clearly communicated to authorized organization administrators.
+
+### 77.5 Subscription Lifecycle
+
+The platform should support subscription states such as:
+
+- Trial.
+- Active.
+- Pending.
+- Past Due.
+- Suspended.
+- Cancelled.
+- Expired.
+
+Subscription changes should be recorded and reflected consistently across the organization account.
+
+### 77.6 Subscription Changes
+
+Authorized administrators should be able to request supported subscription changes.
+
+Potential actions include:
+
+- Upgrading a plan.
+- Downgrading a plan.
+- Adding supported locations.
+- Changing eligible user limits.
+- Requesting optional add-ons.
+- Cancelling a subscription.
+
+Changes should follow defined billing rules and approval requirements.
+
+### 77.7 Billing Integration
+
+Billing should use an established payment provider.
+
+The platform should:
+
+- Maintain subscription references.
+- Track billing status.
+- Process authorized provider updates.
+- Record relevant billing events.
+- Display invoices or billing history where supported.
+- Avoid storing raw payment card information.
+
+Live payment processing is not required for the initial product demonstration.
+
+### 77.8 Access Control and Subscription Enforcement
+
+Subscription entitlements should work together with role-based permissions.
+
+A user must satisfy both conditions:
+
+1. Their role permits the requested action.
+2. Their organization's subscription includes the relevant capability.
+
+Subscription restrictions must not expose another organization's information or bypass security controls.
+
+### 77.9 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Configurable subscription plan definitions.
+- Basic feature entitlement structure.
+- Organization-level subscription status.
+- Clear feature availability indicators.
+- Administrative subscription management.
+- Simulated subscription data for demonstrations.
+
+Advanced automated billing and payment workflows can be introduced later.
+
+### 77.10 Long-Term Goal
+
+BlackGrid Cannabis OS should provide a flexible subscription management system that supports sustainable SaaS revenue, controlled feature access, and future product expansion.
