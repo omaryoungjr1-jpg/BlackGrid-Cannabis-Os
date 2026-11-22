@@ -10248,3 +10248,153 @@ A fully automated account exit workflow is not required for the initial MVP.
 ### 92.11 Long-Term Goal
 
 BlackGrid Cannabis OS should provide a transparent and secure customer data portability and exit experience that respects customer ownership interests, protects confidential information, and supports responsible platform operations.
+
+## 93. Product Business Rules and Calculation Governance
+
+### 93.1 Purpose
+
+BlackGrid Cannabis OS should maintain consistent, documented business rules across dashboards, reports, analytics, and platform modules.
+
+This section establishes how business calculations are defined, approved, tested, updated, and communicated so that users receive consistent and explainable information.
+
+### 93.2 Centralized Business Rules
+
+Important calculations should be defined in centralized, documented business logic rather than independently recreated across different screens.
+
+Examples include:
+
+- Gross sales.
+- Discounts.
+- Returns.
+- Net sales.
+- Cost of goods sold.
+- Gross profit.
+- Gross margin.
+- Inventory value.
+- Product profitability.
+- Inventory movement.
+- Promotion performance.
+
+Calculation definitions should remain consistent with Section 18 and related intelligence sections.
+
+### 93.3 Calculation Definitions
+
+Each important metric should have a documented definition.
+
+Documentation should identify:
+
+- Metric name.
+- Business purpose.
+- Calculation method.
+- Required source fields.
+- Included and excluded values.
+- Treatment of missing information.
+- Applicable date and location filters.
+- Known limitations.
+
+### 93.4 Source Data and Calculation Traceability
+
+Users should be able to understand where important calculated values originate.
+
+Where practical, the platform should retain:
+
+- Source system.
+- Source record identifier.
+- Relevant timestamps.
+- Applied calculation version.
+- Data validation status.
+- Calculation limitations.
+
+The platform should distinguish source-reported values from platform-calculated values.
+
+### 93.5 Handling Missing or Unreliable Data
+
+The platform must not silently treat missing or unreliable information as accurate.
+
+Examples include:
+
+- Missing product costs.
+- Incomplete sales records.
+- Unmapped products.
+- Duplicate source records.
+- Delayed synchronization.
+- Conflicting source values.
+- Incomplete reporting periods.
+
+Affected calculations should be marked as unavailable, estimated, incomplete, or otherwise qualified as appropriate.
+
+### 93.6 Calculation Changes and Versioning
+
+Changes to business calculations should be controlled and documented.
+
+Requirements include:
+
+- Documenting the reason for a change.
+- Reviewing expected business impact.
+- Testing affected calculations.
+- Recording the calculation version.
+- Identifying affected reports and dashboards.
+- Communicating material changes to customers.
+- Maintaining appropriate historical context.
+
+Historical reports should not silently change without an identifiable reason.
+
+### 93.7 Approval and Governance
+
+Changes to important financial or operational calculations should require appropriate product and technical review.
+
+Approval should consider:
+
+- Business accuracy.
+- Data availability.
+- Customer impact.
+- Reporting consistency.
+- Technical implementation.
+- Test coverage.
+- Documentation updates.
+
+### 93.8 Automated Calculation Testing
+
+Critical business calculations should have automated tests.
+
+Testing should cover:
+
+- Normal calculation scenarios.
+- Discounts and returns.
+- Missing source values.
+- Zero-value cases.
+- Duplicate records.
+- Date boundaries.
+- Location filters.
+- Multi-location reporting.
+- Rounding behavior.
+- Historical calculation consistency.
+
+### 93.9 User Transparency
+
+Where a calculated value could be misunderstood, the interface should provide an explanation.
+
+Examples include:
+
+- Showing how gross profit is calculated.
+- Identifying estimated values.
+- Explaining unavailable margin calculations.
+- Indicating incomplete source data.
+- Showing the reporting period.
+- Identifying the source of imported information.
+
+### 93.10 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Documented definitions for core financial metrics.
+- Centralized calculation logic.
+- Consistent calculations across dashboard and reports.
+- Clear handling of missing cost information.
+- Automated tests for critical calculations.
+- Basic calculation documentation.
+- Visibility into source-data limitations.
+
+### 93.11 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain a governed business calculation framework that makes financial and operational intelligence consistent, explainable, testable, and trustworthy as the platform expands.
