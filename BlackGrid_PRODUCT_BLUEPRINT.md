@@ -10871,3 +10871,175 @@ Advanced document workflows, external sharing, and extensive version management 
 ### 96.11 Long-Term Goal
 
 BlackGrid Cannabis OS should provide a secure and organized document management experience that helps customers manage business information while protecting confidentiality, access permissions, and data integrity.
+
+## 97. Product Multi-Tenant Architecture and Customer Isolation
+
+### 97.1 Purpose
+
+BlackGrid Cannabis OS should use a secure multi-tenant architecture that allows multiple independent business customers to use the same platform while keeping their information, settings, users, and activity appropriately separated.
+
+Customer isolation must be a foundational architectural requirement, not an optional feature.
+
+### 97.2 Organization-Based Tenant Structure
+
+Each customer organization should have its own tenant identity.
+
+The tenant structure should support:
+
+- Organization profile.
+- Organization users.
+- Organization roles and permissions.
+- Business locations.
+- Organization settings.
+- Subscription and feature entitlements.
+- Integration configurations.
+- Organization-specific reporting.
+- Organization activity and audit history.
+
+Each tenant should have a unique identifier used consistently throughout the platform.
+
+### 97.3 Location-Level Organization
+
+Organizations may operate one or multiple business locations.
+
+The platform should support:
+
+- Organization-wide administration.
+- Location-specific access.
+- Location-level settings.
+- Location-level reporting.
+- Authorized cross-location reporting.
+- Consistent organization ownership of location records.
+
+A user should only access locations permitted by their assigned role and permissions.
+
+### 97.4 Database-Level Isolation
+
+Customer isolation must be enforced through backend and database security controls.
+
+Requirements include:
+
+- Organization identifiers on applicable records.
+- Server-side authorization checks.
+- Database access policies.
+- Organization-scoped queries.
+- Location-level restrictions where applicable.
+- Protection against unauthorized cross-tenant access.
+- Testing for tenant isolation failures.
+
+Frontend filtering alone is not sufficient to protect customer information.
+
+### 97.5 User and Role Isolation
+
+Users should belong to authorized organizations and receive permissions appropriate to their responsibilities.
+
+Requirements include:
+
+- Organization membership records.
+- Role assignments.
+- Location permissions.
+- Controlled invitations.
+- Access revocation.
+- Secure account recovery.
+- Auditing of permission changes.
+
+Administrative privileges should be limited and monitored.
+
+### 97.6 Tenant-Specific Configuration
+
+Each organization should be able to maintain its own supported configuration.
+
+Examples include:
+
+- Organization profile.
+- Business locations.
+- Dashboard preferences.
+- Notification preferences.
+- Approved integrations.
+- Reporting settings.
+- Subscription entitlements.
+- Supported regional configuration.
+
+One organization's settings must not unintentionally affect another organization's environment.
+
+### 97.7 Tenant Data Integrity
+
+All organization-owned records should maintain correct tenant relationships.
+
+The platform should enforce:
+
+- Valid organization references.
+- Valid location references.
+- Consistent record ownership.
+- Referential integrity.
+- Controlled data imports.
+- Tenant-aware background processing.
+- Tenant-aware reporting.
+
+Records without a valid and authorized organization relationship should be rejected or quarantined for review.
+
+### 97.8 Administrative Access
+
+Platform administrators may require limited cross-tenant operational visibility for support and maintenance.
+
+Such access must be:
+
+- Restricted to authorized administrators.
+- Granted according to business need.
+- Logged and auditable.
+- Limited to necessary information.
+- Subject to privacy and confidentiality requirements.
+
+Administrative access must not become unrestricted routine access to customer business information.
+
+### 97.9 Tenant Isolation Testing
+
+Testing should verify that one organization cannot access another organization's information.
+
+Tests should include:
+
+- Dashboard access.
+- API requests.
+- Database queries.
+- File access.
+- Search results.
+- Reporting.
+- Imports and exports.
+- Background jobs.
+- User invitations.
+- Administrative workflows.
+
+Tenant isolation should be included in automated security testing.
+
+### 97.10 Scalability and Performance
+
+The multi-tenant architecture should support growth in:
+
+- Customer organizations.
+- Business locations.
+- Users.
+- Data volume.
+- Reports.
+- Integrations.
+- Concurrent requests.
+
+Performance optimization should not weaken tenant isolation.
+
+### 97.11 MVP Priorities
+
+The initial MVP should prioritize:
+
+- Organization-based tenant identifiers.
+- Organization-owned records.
+- Location relationships.
+- Backend authorization.
+- Database-level access controls.
+- Tenant-aware reporting.
+- Tenant isolation tests.
+- Restricted administrative access.
+
+Initial testing should use separate fictional organizations and fictional business data.
+
+### 97.12 Long-Term Goal
+
+BlackGrid Cannabis OS should maintain a secure, scalable multi-tenant architecture that allows BlackGrid Innovations to support independent customers and multi-location organizations without compromising data confidentiality, access control, or platform reliability.
